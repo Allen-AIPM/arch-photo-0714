@@ -1,15 +1,15 @@
 window.INSPIRATION_DATA = {
-  "generatedAt": "2026-07-13 21:40:40",
+  "generatedAt": "2026-07-15 01:46:55",
   "rootName": "灵感库",
   "imageFolder": "image",
-  "totalImages": 19,
-  "matchedImages": 18,
-  "unmatchedImages": 2,
+  "totalImages": 39,
+  "matchedImages": 38,
+  "unmatchedImages": 1,
   "aiModel": "qwen3-vl-flash",
-  "aiTaggedImages": 20,
+  "aiTaggedImages": 39,
   "aiTagSummary": {
     "model": "qwen3-vl-flash",
-    "fromCache": 0,
+    "fromCache": 19,
     "taggedNow": 20,
     "failed": 0,
     "skipped": 0,
@@ -23,8 +23,1192 @@ window.INSPIRATION_DATA = {
     "场景用途"
   ],
   "excelFile": "图片信息.xlsx",
-  "excelRows": 19,
+  "excelRows": 39,
   "items": [
+    {
+      "id": "img-00025",
+      "fileName": "20260715012714-MMA-黄土高原民俗活动中心把千沟万壑揉进建筑.jpeg",
+      "relativePath": "image/20260715012714-MMA-黄土高原民俗活动中心把千沟万壑揉进建筑.jpeg",
+      "imageUrl": "image/20260715012714-MMA-%E9%BB%84%E5%9C%9F%E9%AB%98%E5%8E%9F%E6%B0%91%E4%BF%97%E6%B4%BB%E5%8A%A8%E4%B8%AD%E5%BF%83%E6%8A%8A%E5%8D%83%E6%B2%9F%E4%B8%87%E5%A3%91%E6%8F%89%E8%BF%9B%E5%BB%BA%E7%AD%91.jpeg",
+      "title": "黄土高原民俗活动中心｜把千沟万壑揉进建筑",
+      "user": "MMA",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a546a82000000001503f7dc?xsec_token=ABiRJ3GAtd8ROCRNZrlV4aojdC7BoHDphkexZ-MhElBGw=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150133/cb8d1bd2915b38597581d3e3e9cc7310/spectrum/1040g0k0322i42opkn40g5o2olmbg92f8quni0ho!nd_dft_wlteh_webp_3",
+      "tags": [
+        "建筑",
+        "活动中心"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:33:22",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "文化建筑",
+          "公共建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "地域主义",
+          "自然主义",
+          "参数化/未来感"
+        ],
+        "材料元素": [
+          "黄土",
+          "绿植",
+          "水体",
+          "清水混凝土"
+        ],
+        "色彩特征": [
+          "暖灰色系",
+          "原木色",
+          "中性色",
+          "低饱和"
+        ],
+        "场景用途": [
+          "鸟瞰/总图",
+          "庭院/广场",
+          "展示区"
+        ]
+      },
+      "aiSummary": "黄土高原民俗活动中心以“千沟万壑”为灵感，通过起伏地形与嵌入式建筑融合，呈现地域性生态建筑的鸟瞰总图与多角度剖面展示。",
+      "aiKeywords": [
+        "黄土高原",
+        "民俗活动中心",
+        "地域主义建筑",
+        "地形嵌入",
+        "剖面分析",
+        "生态建筑",
+        "黄土材料",
+        "景观构筑物",
+        "鸟瞰图",
+        "MMA设计",
+        "千沟万壑",
+        "文化空间"
+      ],
+      "aiTaggedAt": "2026-07-15 01:45:51"
+    },
+    {
+      "id": "img-00038",
+      "fileName": "20260715012714-阿飞-这么好的建筑一定要去拍啊.jpeg",
+      "relativePath": "image/20260715012714-阿飞-这么好的建筑一定要去拍啊.jpeg",
+      "imageUrl": "image/20260715012714-%E9%98%BF%E9%A3%9E-%E8%BF%99%E4%B9%88%E5%A5%BD%E7%9A%84%E5%BB%BA%E7%AD%91%E4%B8%80%E5%AE%9A%E8%A6%81%E5%8E%BB%E6%8B%8D%E5%95%8A.jpeg",
+      "title": "这么好的建筑，一定要去拍啊📷",
+      "user": "阿飞",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a523774000000001003f9be?xsec_token=ABSLSH9slQTg7-tpwr8dN_Ia97t-kTVud_5sotdLYjXfQ=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150129/c82cbe22a46319d93c4cbc339e4d68b1/notes_pre_post/1040g3k8322fvfs0gmu7g5nnvv7ag80fq0cfjoeg!nd_dft_wlteh_webp_3",
+      "tags": [
+        "建筑"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:29:23",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "景观/构筑物",
+          "文化建筑"
+        ],
+        "设计风格": [
+          "参数化/未来感",
+          "混合风格"
+        ],
+        "材料元素": [
+          "砖",
+          "其他"
+        ],
+        "色彩特征": [
+          "高对比",
+          "明亮通透",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "立面/外观",
+          "庭院/广场"
+        ]
+      },
+      "aiSummary": "仰视视角下，红色穿孔砖构筑的流动曲面拱廊框出蓝天白云，中央立柱形成视觉焦点，极具雕塑感与空间张力。",
+      "aiKeywords": [
+        "红色砖构",
+        "穿孔拱廊",
+        "参数化建筑",
+        "曲面结构",
+        "天空框景",
+        "现代景观",
+        "建筑摄影",
+        "艺术装置",
+        "高饱和色彩",
+        "仰拍视角",
+        "云朵天际",
+        "地标性构筑"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:50"
+    },
+    {
+      "id": "img-00020",
+      "fileName": "20260715012714-ArchDailyOfficial-轻盈落入城市白色褶皱下的艺术综合体.jpeg",
+      "relativePath": "image/20260715012714-ArchDailyOfficial-轻盈落入城市白色褶皱下的艺术综合体.jpeg",
+      "imageUrl": "image/20260715012714-ArchDailyOfficial-%E8%BD%BB%E7%9B%88%E8%90%BD%E5%85%A5%E5%9F%8E%E5%B8%82%E7%99%BD%E8%89%B2%E8%A4%B6%E7%9A%B1%E4%B8%8B%E7%9A%84%E8%89%BA%E6%9C%AF%E7%BB%BC%E5%90%88%E4%BD%93.jpeg",
+      "title": "轻盈落入城市🏙️白色褶皱下的艺术综合体",
+      "user": "ArchDaily Official",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a510dce000000001102fd64?xsec_token=ABHGk9TfU-ffzxHncXggUbvT4YDbdUp6oEiz78mtvaThg=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150130/9635ab3f287780a35e59a55891a1efd0/notes_pre_post/1040g3k0322er28ib74005oi6fe64185mr4gvmk8!nd_dft_wlteh_webp_3",
+      "tags": [
+        "AI"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:30:12",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "文化建筑",
+          "商业建筑"
+        ],
+        "设计风格": [
+          "参数化/未来感",
+          "极简主义"
+        ],
+        "材料元素": [
+          "玻璃",
+          "金属",
+          "混凝土"
+        ],
+        "色彩特征": [
+          "中性色",
+          "黑白灰",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "白色层叠褶皱立面的现代艺术综合体，底层通透玻璃幕墙映射天空云影，行人穿行于城市街角。",
+      "aiKeywords": [
+        "白色建筑",
+        "参数化立面",
+        "玻璃幕墙",
+        "城市艺术中心",
+        "层叠结构",
+        "极简主义",
+        "城市街角",
+        "建筑摄影",
+        "ArchDaily",
+        "轻盈感"
+      ],
+      "aiTaggedAt": "2026-07-15 01:45:29"
+    },
+    {
+      "id": "img-00026",
+      "fileName": "20260715012714-MogoD-让动线成为互动的空间OhooArch设计.jpeg",
+      "relativePath": "image/20260715012714-MogoD-让动线成为互动的空间OhooArch设计.jpeg",
+      "imageUrl": "image/20260715012714-MogoD-%E8%AE%A9%E5%8A%A8%E7%BA%BF%E6%88%90%E4%B8%BA%E4%BA%92%E5%8A%A8%E7%9A%84%E7%A9%BA%E9%97%B4OhooArch%E8%AE%BE%E8%AE%A1.jpeg",
+      "title": "让动线成为互动的空间🟡Ohoo Arch设计",
+      "user": "Mogo.D",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a509d41000000001702f71d?xsec_token=ABrJ-Pl_dQxEAOntAvIoYUBK6Ng9MuJtj5Izx0LINuZQA=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150133/88963675250f9926e787b351ef6a1c4c/notes_pre_post/1040g3k8322ed9pno7ka05n995t5kkhb8ck8nmi8!nd_dft_wlteh_webp_3",
+      "tags": [
+        "设计"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:33:07",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "住宅建筑",
+          "公共建筑"
+        ],
+        "设计风格": [
+          "现代主义",
+          "参数化/未来感",
+          "混合风格"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "金属",
+          "玻璃",
+          "绿植",
+          "木饰面"
+        ],
+        "色彩特征": [
+          "中性色",
+          "高对比",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "立面/外观",
+          "鸟瞰/总图"
+        ]
+      },
+      "aiSummary": "白色螺旋楼梯贯穿多层住宅楼院落，橙黄立面与灰白主体形成强烈视觉对比，动线设计成为空间互动核心。",
+      "aiKeywords": [
+        "螺旋楼梯",
+        "住宅庭院",
+        "高对比色彩",
+        "动线设计",
+        "参数化造型",
+        "现代住宅",
+        "公共空间",
+        "Mogo.D",
+        "Ohoo Arch",
+        "建筑摄影",
+        "鸟瞰视角",
+        "彩色点缀"
+      ],
+      "aiTaggedAt": "2026-07-15 01:45:56"
+    },
+    {
+      "id": "img-00029",
+      "fileName": "20260715012714-softervolumes-街角里的再生建筑.jpeg",
+      "relativePath": "image/20260715012714-softervolumes-街角里的再生建筑.jpeg",
+      "imageUrl": "image/20260715012714-softervolumes-%E8%A1%97%E8%A7%92%E9%87%8C%E7%9A%84%E5%86%8D%E7%94%9F%E5%BB%BA%E7%AD%91.jpeg",
+      "title": "街角里的再生建筑",
+      "user": "softervolumes",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a4f10060000000006033c86?xsec_token=ABsN5DtbNmgIJ1lusotT114FyaigINVkCo9lrm7sIPZFQ=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150128/55923ced1a7fde4800a803d719160165/spectrum/1040g0k0322cst6qn72005po4v66ncfgo93dfg3g!nd_dft_wlteh_webp_3",
+      "tags": [
+        "建筑"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:28:27",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "商业建筑"
+        ],
+        "设计风格": [
+          "极简主义",
+          "地域主义",
+          "混合风格"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "玻璃",
+          "石材",
+          "绿植",
+          "木饰面",
+          "金属"
+        ],
+        "色彩特征": [
+          "中性色",
+          "冷色调",
+          "明亮通透",
+          "低饱和"
+        ],
+        "场景用途": [
+          "入口大堂",
+          "休闲区",
+          "展示区",
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "街角再生建筑，以白色弧形玻璃幕墙包裹现代商业空间，融合老城石墙与绿植庭院，营造通透静谧的都市微景观。",
+      "aiKeywords": [
+        "街角建筑",
+        "再生建筑",
+        "玻璃幕墙",
+        "清水混凝土",
+        "商业空间",
+        "极简主义",
+        "城市更新",
+        "绿植庭院",
+        "地域主义",
+        "softervolumes",
+        "入口设计",
+        "休闲区"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:10"
+    },
+    {
+      "id": "img-00027",
+      "fileName": "20260715012714-MosesS-百年前的屠宰厂的建筑美学有多绝.jpeg",
+      "relativePath": "image/20260715012714-MosesS-百年前的屠宰厂的建筑美学有多绝.jpeg",
+      "imageUrl": "image/20260715012714-MosesS-%E7%99%BE%E5%B9%B4%E5%89%8D%E7%9A%84%E5%B1%A0%E5%AE%B0%E5%8E%82%E7%9A%84%E5%BB%BA%E7%AD%91%E7%BE%8E%E5%AD%A6%E6%9C%89%E5%A4%9A%E7%BB%9D.jpeg",
+      "title": "百年前的屠宰厂的建筑美学有多绝？",
+      "user": "MosesS",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a509ffa000000000f031c85?xsec_token=ABrJ-Pl_dQxEAOntAvIoYUBHucVRZZIiYsGRA2rZAG6Hw=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150132/e47cdb04384845aca32497ceb4a4117a/1040g2sg322ed25fc707048e8drue0ukfc2dg9d8!nd_dft_wlteh_webp_3",
+      "tags": [
+        "建筑"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:32:35",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "工业建筑",
+          "公共建筑"
+        ],
+        "设计风格": [
+          "工业风",
+          "现代主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "金属"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "黑白灰",
+          "暗调氛围"
+        ],
+        "场景用途": [
+          "走廊",
+          "楼梯间"
+        ]
+      },
+      "aiSummary": "一名男子身着背心沿老旧屠宰厂的混凝土楼梯下行，斑驳墙面与金属扶手凸显工业遗存的粗粝美感。",
+      "aiKeywords": [
+        "屠宰厂",
+        "工业风",
+        "清水混凝土",
+        "楼梯间",
+        "金属扶手",
+        "冷色调",
+        "暗调",
+        "复古工业",
+        "建筑美学",
+        "MosesS",
+        "人物摄影",
+        "空间张力"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:01"
+    },
+    {
+      "id": "img-00037",
+      "fileName": "20260715012714-野蛮公社-沃斯堡水景园混凝土城市的失重水境.jpeg",
+      "relativePath": "image/20260715012714-野蛮公社-沃斯堡水景园混凝土城市的失重水境.jpeg",
+      "imageUrl": "image/20260715012714-%E9%87%8E%E8%9B%AE%E5%85%AC%E7%A4%BE-%E6%B2%83%E6%96%AF%E5%A0%A1%E6%B0%B4%E6%99%AF%E5%9B%AD%E6%B7%B7%E5%87%9D%E5%9C%9F%E5%9F%8E%E5%B8%82%E7%9A%84%E5%A4%B1%E9%87%8D%E6%B0%B4%E5%A2%83.jpeg",
+      "title": "沃斯堡水景园｜混凝土城市的失重水境🌊",
+      "user": "野蛮公社",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a48e91a0000000007011da2?xsec_token=ABAJu5IKpVD1_8xbx0YyFnsPJAXdkUzuA0bQx6wQClJ-w=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150129/a9492a500cd82e9aa517ec00a36af773/1040g0083226r9279nu0g5p6cmptip0112v0117o!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:29:13",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "公共建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "现代主义",
+          "极简主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "水体",
+          "灯光装置"
+        ],
+        "色彩特征": [
+          "暖灰色系",
+          "中性色",
+          "低饱和",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "休闲区",
+          "鸟瞰/总图"
+        ]
+      },
+      "aiSummary": "沃斯堡水景园以层叠混凝土台阶与阶梯式瀑布构成，人们在水境中穿行休憩，呈现城市中失重般的流动诗意。",
+      "aiKeywords": [
+        "沃斯堡水景园",
+        "混凝土水景",
+        "阶梯瀑布",
+        "现代主义景观",
+        "清水混凝土",
+        "城市公共空间",
+        "水体构筑物",
+        "光影水境",
+        "休闲广场",
+        "鸟瞰视角",
+        "极简主义",
+        "城市绿洲"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:46"
+    },
+    {
+      "id": "img-00034",
+      "fileName": "20260715012714-森宝达玩游戏-林间水岸蘑菇点缀的森系商业街.jpeg",
+      "relativePath": "image/20260715012714-森宝达玩游戏-林间水岸蘑菇点缀的森系商业街.jpeg",
+      "imageUrl": "image/20260715012714-%E6%A3%AE%E5%AE%9D%E8%BE%BE%E7%8E%A9%E6%B8%B8%E6%88%8F-%E6%9E%97%E9%97%B4%E6%B0%B4%E5%B2%B8%E8%98%91%E8%8F%87%E7%82%B9%E7%BC%80%E7%9A%84%E6%A3%AE%E7%B3%BB%E5%95%86%E4%B8%9A%E8%A1%97.jpeg",
+      "title": "林间水岸｜蘑菇点缀的森系商业街",
+      "user": "森宝达玩游戏",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a51004c00000000070200d4?xsec_token=ABHGk9TfU-ffzxHncXggUbvejnUXoUwLoHesK_LGjn2F8=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150131/a618009461b90255c08dc7d03d79862b/spectrum/1040g0k0322epg7c672005o60fl808n3uhkl69ao!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:32:09",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "商业建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "自然主义",
+          "地域主义",
+          "混合风格"
+        ],
+        "材料元素": [
+          "石材",
+          "木饰面",
+          "砖",
+          "绿植",
+          "水体",
+          "陶板"
+        ],
+        "色彩特征": [
+          "原木色",
+          "彩色点缀",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "立面/外观",
+          "鸟瞰/总图"
+        ]
+      },
+      "aiSummary": "林间水岸主题商业街，以蘑菇、流水、石阶与森系小屋构成童话感场景，含Nook's Cranny等店铺及货运细节。",
+      "aiKeywords": [
+        "林间水岸",
+        "蘑菇装饰",
+        "森系商业街",
+        "Nook's Cranny",
+        "石阶瀑布",
+        "石头门廊",
+        "原木色建筑",
+        "彩色点缀",
+        "水体景观",
+        "鸟瞰视角",
+        "游戏场景",
+        "自然主义"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:33"
+    },
+    {
+      "id": "img-00032",
+      "fileName": "20260715012714-喵哥-悉尼粗野主义建筑风格大赏1.jpeg",
+      "relativePath": "image/20260715012714-喵哥-悉尼粗野主义建筑风格大赏1.jpeg",
+      "imageUrl": "image/20260715012714-%E5%96%B5%E5%93%A5-%E6%82%89%E5%B0%BC%E7%B2%97%E9%87%8E%E4%B8%BB%E4%B9%89%E5%BB%BA%E7%AD%91%E9%A3%8E%E6%A0%BC%E5%A4%A7%E8%B5%8F1.jpeg",
+      "title": "悉尼粗野主义建筑风格大赏（1）",
+      "user": "喵哥",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a50de62000000000603292b?xsec_token=ABrJ-Pl_dQxEAOntAvIoYUBP30mdMEh_A6r5EIjvZ7mKg=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150129/0f17c57e58ea0122bfe822bfb4e9c1cc/note_pre_post_uhdr/1040g3r0322elap03na005ov12dopic2datir8uo!nd_dft_wgth_webp_3",
+      "tags": [
+        "建筑"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:29:35",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "教育建筑"
+        ],
+        "设计风格": [
+          "粗野主义",
+          "现代主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "玻璃"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "中性色",
+          "黑白灰",
+          "暗调氛围"
+        ],
+        "场景用途": [
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "悉尼科技大学标志性粗野主义高层建筑，混凝土体量与玻璃幕墙并置，阴云下呈现厚重沉稳的都市肌理。",
+      "aiKeywords": [
+        "悉尼科技大学",
+        "粗野主义",
+        "清水混凝土",
+        "现代主义建筑",
+        "UTS大楼",
+        "悉尼地标",
+        "高密度校园",
+        "混凝土美学",
+        "城市天际线",
+        "建筑摄影",
+        "澳洲大学",
+        "历史建筑"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:23"
+    },
+    {
+      "id": "img-00030",
+      "fileName": "20260715012714-上小鲜灵感铺子-平衡无需多言.jpeg",
+      "relativePath": "image/20260715012714-上小鲜灵感铺子-平衡无需多言.jpeg",
+      "imageUrl": "image/20260715012714-%E4%B8%8A%E5%B0%8F%E9%B2%9C%E7%81%B5%E6%84%9F%E9%93%BA%E5%AD%90-%E5%B9%B3%E8%A1%A1%E6%97%A0%E9%9C%80%E5%A4%9A%E8%A8%80.jpeg",
+      "title": "平衡，无需多言",
+      "user": "「上小鲜」灵感铺子",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a5217100000000016025a43?xsec_token=ABSLSH9slQTg7-tpwr8dN_IcogmjPcHn7tFgDsxOGh2Ac=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150128/9a75237c9c542044a976f94ef8c5d66b/spectrum/1040g34o322fprjr6ms605o0oo8b080iv6qve2t0!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:28:15",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "自然主义",
+          "极简主义",
+          "参数化/未来感"
+        ],
+        "材料元素": [
+          "木饰面",
+          "金属",
+          "水体"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "中性色",
+          "低饱和",
+          "黑白灰",
+          "暗调氛围"
+        ],
+        "场景用途": [
+          "鸟瞰/总图",
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "湖中浮动的木质栈道与金属柱群构成平衡意象，水下倒影强化虚实相生，展现人与自然共生的诗意栖居。",
+      "aiKeywords": [
+        "湖中构筑物",
+        "浮动栈道",
+        "水下倒影",
+        "平衡美学",
+        "极简主义景观",
+        "木质结构",
+        "金属柱群",
+        "鸟瞰图",
+        "自然主义设计",
+        "诗意空间",
+        "湖心平台",
+        "环境融合"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:14"
+    },
+    {
+      "id": "img-00035",
+      "fileName": "20260715012714-物反必极-展览上海夏日建筑铭写.jpeg",
+      "relativePath": "image/20260715012714-物反必极-展览上海夏日建筑铭写.jpeg",
+      "imageUrl": "image/20260715012714-%E7%89%A9%E5%8F%8D%E5%BF%85%E6%9E%81-%E5%B1%95%E8%A7%88%E4%B8%8A%E6%B5%B7%E5%A4%8F%E6%97%A5%E5%BB%BA%E7%AD%91%E9%93%AD%E5%86%99.jpeg",
+      "title": "展览 | 上海夏日，建筑铭写",
+      "user": "物反必极",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a4e4fe20000000016025fa8?xsec_token=ABtjAPUO5PjmITEChjiO_S6k_ubPkGplu2kTzuq6bzVz4=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150132/e734ff3c7477da65c3d84f45798d5806/notes_pre_post/1040g3k0322c52mq27a5g5n43hs84jbmkkccaoo0!nd_dft_wlteh_webp_3",
+      "tags": [
+        "建筑"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:32:21",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "展览建筑",
+          "文化建筑"
+        ],
+        "设计风格": [
+          "极简主义",
+          "现代主义",
+          "参数化/未来感"
+        ],
+        "材料元素": [
+          "玻璃",
+          "清水混凝土",
+          "金属",
+          "绿植"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "中性色",
+          "黑白灰",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "展示区",
+          "休闲区",
+          "走廊"
+        ]
+      },
+      "aiSummary": "上海夏日展览开幕现场，以‘建筑的铭写’为主题，呈现极简白墙、弧形窗景与人物互动的当代策展空间。",
+      "aiKeywords": [
+        "展览开幕",
+        "建筑铭写",
+        "上海夏日",
+        "极简展厅",
+        "弧形窗景",
+        "清水混凝土",
+        "玻璃幕墙",
+        "文化展览",
+        "策展空间",
+        "现代建筑",
+        "白色墙面",
+        "人物剪影"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:37"
+    },
+    {
+      "id": "img-00028",
+      "fileName": "20260715012714-numbers-审美提升100个设计师灵感私宅伦敦.jpeg",
+      "relativePath": "image/20260715012714-numbers-审美提升100个设计师灵感私宅伦敦.jpeg",
+      "imageUrl": "image/20260715012714-numbers-%E5%AE%A1%E7%BE%8E%E6%8F%90%E5%8D%87100%E4%B8%AA%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%81%B5%E6%84%9F%E7%A7%81%E5%AE%85%E4%BC%A6%E6%95%A6.jpeg",
+      "title": "审美提升｜100个设计师灵感私宅・伦敦",
+      "user": "numbers.",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a509cf600000000210185b1?xsec_token=ABrJ-Pl_dQxEAOntAvIoYUBKqFF6HT63I7RHyPxsqIWJQ=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150129/31de6d197b10755e95b234a99259bf92/spectrum/1040g0k0322eda0so6s605pbtcrso5upt4aa6qgo!nd_dft_wlteh_webp_3",
+      "tags": [
+        "设计"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:29:57",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "室内空间",
+          "办公建筑"
+        ],
+        "设计风格": [
+          "工业风",
+          "现代主义",
+          "混合风格"
+        ],
+        "材料元素": [
+          "金属",
+          "玻璃",
+          "织物/软装",
+          "灯光装置",
+          "木饰面"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "高对比",
+          "彩色点缀",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "办公区",
+          "休闲区",
+          "洽谈区"
+        ]
+      },
+      "aiSummary": "伦敦一处工业风混搭现代主义的开放式办公与休闲空间，蓝钢架结构搭配牛皮椅与金属家具，采光充足且富有设计感。",
+      "aiKeywords": [
+        "伦敦私宅",
+        "工业风办公空间",
+        "蓝钢架结构",
+        "现代主义设计",
+        "金属家具",
+        "牛皮座椅",
+        "明亮通透",
+        "高对比配色",
+        "设计师灵感",
+        "numbers伦敦"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:06"
+    },
+    {
+      "id": "img-00031",
+      "fileName": "20260715012714-只有红楼梦戏剧幻城-夏日幻城给你点颜色瞧瞧.jpeg",
+      "relativePath": "image/20260715012714-只有红楼梦戏剧幻城-夏日幻城给你点颜色瞧瞧.jpeg",
+      "imageUrl": "image/20260715012714-%E5%8F%AA%E6%9C%89%E7%BA%A2%E6%A5%BC%E6%A2%A6%E6%88%8F%E5%89%A7%E5%B9%BB%E5%9F%8E-%E5%A4%8F%E6%97%A5%E5%B9%BB%E5%9F%8E%E7%BB%99%E4%BD%A0%E7%82%B9%E9%A2%9C%E8%89%B2%E7%9E%A7%E7%9E%A7.jpeg",
+      "title": "夏日幻城，“给你点颜色瞧瞧”！",
+      "user": "只有红楼梦戏剧幻城",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a50da09000000001c02592f?xsec_token=ABrJ-Pl_dQxEAOntAvIoYUBDzTVO_kDIrC1xz-ekKxIgg=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150128/f0eab91dc5ed057a7071f4f90caab183/1040g2sg322eeg86m7ue05ng2ku9g96pqrk5j5v0!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:28:41",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "文化建筑",
+          "展览建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "东方美学",
+          "参数化/未来感",
+          "混合风格"
+        ],
+        "材料元素": [
+          "金属",
+          "石材",
+          "清水混凝土",
+          "绿植",
+          "灯光装置"
+        ],
+        "色彩特征": [
+          "高对比",
+          "彩色点缀",
+          "明亮通透",
+          "暖灰色系"
+        ],
+        "场景用途": [
+          "立面/外观",
+          "庭院/广场",
+          "展示区",
+          "入口大堂"
+        ]
+      },
+      "aiSummary": "夏日幻城以‘给你点颜色瞧瞧’为主题，融合传统飞檐与现代几何结构，通过紫、红、绿、青、蓝、黄六色主题墙呈现红楼梦戏剧幻城的视觉诗篇。",
+      "aiKeywords": [
+        "红楼梦",
+        "戏剧幻城",
+        "东方美学",
+        "参数化建筑",
+        "高饱和色彩",
+        "飞檐斗拱",
+        "现代重构",
+        "光影装置",
+        "文化地标",
+        "主题展陈",
+        "建筑摄影",
+        "视觉艺术"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:19"
+    },
+    {
+      "id": "img-00021",
+      "fileName": "20260715012714-CathyLCY-在苏州再感受MoCA的建筑美学.jpeg",
+      "relativePath": "image/20260715012714-CathyLCY-在苏州再感受MoCA的建筑美学.jpeg",
+      "imageUrl": "image/20260715012714-CathyLCY-%E5%9C%A8%E8%8B%8F%E5%B7%9E%E5%86%8D%E6%84%9F%E5%8F%97MoCA%E7%9A%84%E5%BB%BA%E7%AD%91%E7%BE%8E%E5%AD%A6.jpeg",
+      "title": "在苏州 再感受MoCA的建筑美学🎞️",
+      "user": "Cathy.LCY",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a54bc8500000000110116e7?xsec_token=ABiRJ3GAtd8ROCRNZrlV4aorbIbALQ6nxC0j2yE-im3C0=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150130/d81b54cfdeb3e1afa8e6a2cc8980bd50/notes_pre_post/1040g3k0322idla0l746g4a0so0j23a68kle1k3o!nd_dft_wlteh_webp_3",
+      "tags": [
+        "建筑"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:30:44",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "文化建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "参数化/未来感",
+          "极简主义"
+        ],
+        "材料元素": [
+          "金属",
+          "玻璃",
+          "混凝土"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "中性色",
+          "黑白灰",
+          "低饱和"
+        ],
+        "场景用途": [
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "苏州MoCA建筑前的摩天轮与现代几何体块构成冷峻而富有未来感的城市天际线。",
+      "aiKeywords": [
+        "苏州MoCA",
+        "建筑美学",
+        "摩天轮",
+        "参数化设计",
+        "极简主义",
+        "金属玻璃幕墙",
+        "冷色调",
+        "城市景观",
+        "现代建筑",
+        "地标构筑物",
+        "低饱和",
+        "立面特写"
+      ],
+      "aiTaggedAt": "2026-07-15 01:45:33"
+    },
+    {
+      "id": "img-00024",
+      "fileName": "20260715012714-MarukoStudio-克制的表情.jpeg",
+      "relativePath": "image/20260715012714-MarukoStudio-克制的表情.jpeg",
+      "imageUrl": "image/20260715012714-MarukoStudio-%E5%85%8B%E5%88%B6%E7%9A%84%E8%A1%A8%E6%83%85.jpeg",
+      "title": "克制的表情",
+      "user": "MarukoStudio",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a539f930000000006035f26?xsec_token=ABFg8jk5r7sryZTGcYPiZ8J9mOB1QOYbn9FwHwF88a22E=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150132/1b2cb26e38fdf72d057e559c64dfafee/spectrum/1040g0k0322hben9n702g5o1ahd6g8qck4aaptv0!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:32:54",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "教育建筑",
+          "公共建筑"
+        ],
+        "设计风格": [
+          "现代主义",
+          "参数化/未来感",
+          "混合风格"
+        ],
+        "材料元素": [
+          "金属",
+          "玻璃",
+          "绿植",
+          "木饰面",
+          "其他"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "中性色",
+          "低饱和",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "立面/外观",
+          "庭院/广场"
+        ]
+      },
+      "aiSummary": "现代教育建筑外景，绿色螺旋楼梯与玻璃幕墙构成流动几何形态，前方红砖篮球场形成功能与美学的对比张力。",
+      "aiKeywords": [
+        "教育建筑",
+        "现代主义",
+        "参数化设计",
+        "螺旋楼梯",
+        "玻璃幕墙",
+        "红砖球场",
+        "金属结构",
+        "低饱和色调",
+        "校园景观",
+        "MarukoStudio",
+        "克制的表情",
+        "建筑摄影"
+      ],
+      "aiTaggedAt": "2026-07-15 01:45:46"
+    },
+    {
+      "id": "img-00036",
+      "fileName": "20260715012714-腿毛哥Quiliano-不得不说观夏的空间设计审美始终在线.jpeg",
+      "relativePath": "image/20260715012714-腿毛哥Quiliano-不得不说观夏的空间设计审美始终在线.jpeg",
+      "imageUrl": "image/20260715012714-%E8%85%BF%E6%AF%9B%E5%93%A5Quiliano-%E4%B8%8D%E5%BE%97%E4%B8%8D%E8%AF%B4%E8%A7%82%E5%A4%8F%E7%9A%84%E7%A9%BA%E9%97%B4%E8%AE%BE%E8%AE%A1%E5%AE%A1%E7%BE%8E%E5%A7%8B%E7%BB%88%E5%9C%A8%E7%BA%BF.jpeg",
+      "title": "不得不说观夏的空间设计审美始终在线",
+      "user": "腿毛哥Quiliano",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a509ce200000000060330ee?xsec_token=ABrJ-Pl_dQxEAOntAvIoYUBLevmg8atyORcbG-DvORYXQ=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150130/e7d8863d67cc0f74ce7185cfdb2626a1/spectrum/1040g0k0322ed1duo700g5nkejgu08v0diu1d4ko!nd_dft_wlteh_webp_3",
+      "tags": [
+        "设计"
+      ],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:30:31",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "文化建筑",
+          "展览建筑",
+          "室内空间"
+        ],
+        "设计风格": [
+          "东方美学",
+          "极简主义",
+          "地域主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "石材",
+          "织物/软装",
+          "绿植",
+          "陶板",
+          "玻璃"
+        ],
+        "色彩特征": [
+          "中性色",
+          "低饱和",
+          "暖灰色系",
+          "明亮通透",
+          "黑白灰"
+        ],
+        "场景用途": [
+          "展示区",
+          "庭院/广场",
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "观夏品牌空间以东方极简美学为基调，融合传统瓦片、白墙、奇石与现代软装，在光影交错中营造静谧雅致的沉浸式展示氛围。",
+      "aiKeywords": [
+        "观夏",
+        "东方美学",
+        "极简主义",
+        "庭院景观",
+        "清水混凝土",
+        "陶器陈列",
+        "织物软装",
+        "低饱和色调",
+        "光影设计",
+        "文化展厅",
+        "地域元素",
+        "静谧空间"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:42"
+    },
+    {
+      "id": "img-00023",
+      "fileName": "20260715012714-Kas-上海华贸中心全新方案计划2029年竣工.jpeg",
+      "relativePath": "image/20260715012714-Kas-上海华贸中心全新方案计划2029年竣工.jpeg",
+      "imageUrl": "image/20260715012714-Kas-%E4%B8%8A%E6%B5%B7%E5%8D%8E%E8%B4%B8%E4%B8%AD%E5%BF%83%E5%85%A8%E6%96%B0%E6%96%B9%E6%A1%88%E8%AE%A1%E5%88%922029%E5%B9%B4%E7%AB%A3%E5%B7%A5.jpeg",
+      "title": "上海华贸中心全新方案：计划2029年竣工！",
+      "user": "Kas",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a54b42e000000000f01ca2b?xsec_token=ABiRJ3GAtd8ROCRNZrlV4aokhKhXlxm1XIKbikbZfNkgQ=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150130/fddc2872bfc5a9dabe0732df3b445a14/notes_pre_post/1040g3k8322id66i8n4705o8gqg70bt1b85c2okg!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:30:59",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "办公建筑",
+          "商业建筑",
+          "住宅建筑",
+          "酒店建筑"
+        ],
+        "设计风格": [
+          "现代主义",
+          "参数化/未来感",
+          "混合风格"
+        ],
+        "材料元素": [
+          "玻璃",
+          "金属",
+          "石材",
+          "砖",
+          "绿植",
+          "水体"
+        ],
+        "色彩特征": [
+          "暖灰色系",
+          "冷色调",
+          "高对比",
+          "明亮通透",
+          "暗调氛围"
+        ],
+        "场景用途": [
+          "立面/外观",
+          "鸟瞰/总图",
+          "庭院/广场"
+        ]
+      },
+      "aiSummary": "上海华贸中心双场景效果图：上为日落时分城市河岸综合体鸟瞰，下为夜幕中流线型摩天楼群临水亮灯景观。",
+      "aiKeywords": [
+        "上海华贸中心",
+        "2029年竣工",
+        "摩天楼",
+        "黄浦江畔",
+        "参数化造型",
+        "玻璃幕墙",
+        "城市更新",
+        "商业综合体",
+        "夜景照明",
+        "鸟瞰图",
+        "现代建筑",
+        "Kas设计"
+      ],
+      "aiTaggedAt": "2026-07-15 01:45:42"
+    },
+    {
+      "id": "img-00039",
+      "fileName": "20260715012714-顾远岱-三年多次山西终于感受到中原美学的震撼.jpeg",
+      "relativePath": "image/20260715012714-顾远岱-三年多次山西终于感受到中原美学的震撼.jpeg",
+      "imageUrl": "image/20260715012714-%E9%A1%BE%E8%BF%9C%E5%B2%B1-%E4%B8%89%E5%B9%B4%E5%A4%9A%E6%AC%A1%E5%B1%B1%E8%A5%BF%E7%BB%88%E4%BA%8E%E6%84%9F%E5%8F%97%E5%88%B0%E4%B8%AD%E5%8E%9F%E7%BE%8E%E5%AD%A6%E7%9A%84%E9%9C%87%E6%92%BC.jpeg",
+      "title": "三年多次山西，终于感受到中原美学的震撼！",
+      "user": "顾远岱",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a55f1ba0000000006037ea9?xsec_token=AB6DuBhgUOTPGLLuJXKuS1K1UNROC0EK2NY_A-31XAaZg=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150127/e2d2d663fb32b067f99349ff8199625f/notes_pre_post/1040g3k0322jjm09tne6g5prh51462mcb9nglndg!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:28:01",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "文化建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "东方美学",
+          "复古/历史主义",
+          "地域主义"
+        ],
+        "材料元素": [
+          "木饰面",
+          "砖",
+          "石材",
+          "织物/软装"
+        ],
+        "色彩特征": [
+          "原木色",
+          "暗调氛围",
+          "低饱和",
+          "暖灰色系"
+        ],
+        "场景用途": [
+          "立面/外观",
+          "庭院/广场"
+        ]
+      },
+      "aiSummary": "山西古建飞檐斗拱与佛像特写、靛蓝织物文字叠加构成的东方禅意影像，呈现中原传统建筑美学的静穆震撼。",
+      "aiKeywords": [
+        "山西古建",
+        "中原美学",
+        "佛像特写",
+        "飞檐斗拱",
+        "东方禅意",
+        "木质结构",
+        "靛蓝织物",
+        "匾额题字",
+        "鸟瞰视角",
+        "文化建筑",
+        "历史主义",
+        "地域特色"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:55"
+    },
+    {
+      "id": "img-00033",
+      "fileName": "20260715012714-小羊的隐秘花园-ThresholdAMarkedCity.jpeg",
+      "relativePath": "image/20260715012714-小羊的隐秘花园-ThresholdAMarkedCity.jpeg",
+      "imageUrl": "image/20260715012714-%E5%B0%8F%E7%BE%8A%E7%9A%84%E9%9A%90%E7%A7%98%E8%8A%B1%E5%9B%AD-ThresholdAMarkedCity.jpeg",
+      "title": "Threshold — A Marked City",
+      "user": "小羊的隐秘花园",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a50683600000000070112de?xsec_token=ABrJ-Pl_dQxEAOntAvIoYUBJKX_C6gDyHhjEYK6yKCdkU=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150128/7e39c8baf0867dc9042c5774130f73c7/spectrum/1040g34o322e6rs55n45g5oc1t7rk1r5fbqfi5l0!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:28:57",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "公共建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "现代主义",
+          "参数化/未来感"
+        ],
+        "材料元素": [
+          "玻璃",
+          "金属",
+          "绿植",
+          "水体",
+          "清水混凝土"
+        ],
+        "色彩特征": [
+          "黑白灰",
+          "中性色",
+          "低饱和",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "鸟瞰/总图"
+        ]
+      },
+      "aiSummary": "黑白城市航拍背景中，一座彩色渲染的大型滨水公共广场与绿地系统被突出呈现，展现城市界面的过渡与激活策略。",
+      "aiKeywords": [
+        "Threshold",
+        "城市界面",
+        "滨水广场",
+        "鸟瞰总图",
+        "公共空间",
+        "城市更新",
+        "景观设计",
+        "参数化规划",
+        "黑白对比",
+        "彩色渲染"
+      ],
+      "aiTaggedAt": "2026-07-15 01:46:27"
+    },
+    {
+      "id": "img-00022",
+      "fileName": "20260715012714-JARVIn灵感档案-LagunaCottage.jpeg",
+      "relativePath": "image/20260715012714-JARVIn灵感档案-LagunaCottage.jpeg",
+      "imageUrl": "image/20260715012714-JARVIn%E7%81%B5%E6%84%9F%E6%A1%A3%E6%A1%88-LagunaCottage.jpeg",
+      "title": "Laguna Cottage",
+      "user": "JARVIn灵感档案",
+      "crawlTime": "20260715012714",
+      "link": "https://www.xiaohongshu.com/explore/6a453df4000000001102fdcc?xsec_token=ABZVKQoYnhTpEwweLSkalj9AC2-x1Tw1dF-c2heBxwGOw=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150133/6009b9ab1db29ca6c3df33322a44b0e0/spectrum/1040g0k032239uvru70005o1r86s089pmahhqgv8!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784050034000.0,
+      "lastModified": "2026-07-15 01:33:35",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "住宅建筑",
+          "室内空间"
+        ],
+        "设计风格": [
+          "混合风格",
+          "自然主义",
+          "东方美学"
+        ],
+        "材料元素": [
+          "石材",
+          "木饰面",
+          "金属",
+          "织物/软装",
+          "绿植",
+          "灯光装置"
+        ],
+        "色彩特征": [
+          "中性色",
+          "黑白灰",
+          "原木色",
+          "低饱和",
+          "高对比"
+        ],
+        "场景用途": [
+          "休闲区"
+        ]
+      },
+      "aiSummary": "Laguna Cottage室内休闲区，以黑白大理石壁炉为中心，搭配深灰布艺沙发、木质柜与抽象艺术画，营造自然质朴又具艺术感的居家氛围。",
+      "aiKeywords": [
+        "Laguna Cottage",
+        "住宅室内",
+        "休闲区",
+        "大理石壁炉",
+        "混合风格",
+        "自然主义",
+        "东方美学",
+        "黑白灰配色",
+        "绿植点缀",
+        "艺术装饰",
+        "木质家具",
+        "JARVIn灵感档案"
+      ],
+      "aiTaggedAt": "2026-07-15 01:45:37"
+    },
     {
       "id": "img-00001",
       "fileName": "140平 ｜用⚫️⚪️🟠打造的dreamhouse，赢麻了！_1_范茉莉_来自小红书网页版.jpg",
@@ -1193,6 +2377,6 @@ window.INSPIRATION_DATA = {
       "aiTaggedAt": "2026-07-13 21:38:17"
     }
   ],
-  "matchedExcelRows": 19,
-  "aiTaggedCount": 19
+  "matchedExcelRows": 39,
+  "aiTaggedCount": 39
 };
