@@ -1,0 +1,17 @@
+.rb-masonry-list {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+}
+
+.rb-masonry-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  will-change: transform, width, height, opacity, filter;
+}
+
+.rb-masonry-item > * {
+  height: 100%;
+}

@@ -1,12 +1,10 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowDown,
   ArrowLeft,
   Bookmark,
   Building2,
-  ChevronLeft,
-  ChevronRight,
   ExternalLink,
   Heart,
   MessageCircle,
@@ -19,6 +17,12 @@ import {
   ZoomIn,
   ZoomOut
 } from "lucide-react";
+import BorderGlow from "./components/BorderGlow";
+import ClickSpark from "./components/ClickSpark";
+import PillNav from "./components/PillNav";
+import SplitText from "./components/SplitText";
+import Stack from "./components/Stack";
+import TargetCursor from "./components/TargetCursor";
 import "./styles.css";
 
 const sourceData = window.INSPIRATION_DATA || { items: [], generatedAt: "" };
@@ -129,7 +133,16 @@ function App() {
   }
 
   return (
-    <div className="site-shell">
+    <>
+      <TargetCursor
+        targetSelector=".cursor-target"
+        spinDuration={2.4}
+        hideDefaultCursor={false}
+        cursorColor="#7f3f2e"
+        cursorColorOnTarget="#b76647"
+      />
+      <ClickSpark sparkColor="#b76647" sparkSize={9} sparkRadius={18} sparkCount={8} duration={420}>
+        <div className="site-shell">
       {view === "profile" ? (
         <PersonalSpacePage
           items={allItems}
@@ -147,8 +160,8 @@ function App() {
             <section className="section gallery-section" id="gallery">
               <div className="section-head">
                 <div>
-                  <p className="eyebrow">Material library</p>
-                  <h2>灵感素材流</h2>
+                  <p className="eyebrow">Design library</p>
+                  <h2>设计素材流</h2>
                 </div>
                 <div className="section-tools">
                   <label className="search-box">
@@ -197,24 +210,36 @@ function App() {
           onComment={(text) => addComment(selectedItem, text)}
         />
       )}
-    </div>
+        </div>
+      </ClickSpark>
+    </>
   );
 }
 
 function Header({ onHome, onProfile }) {
   return (
     <header className="nav">
-      <button className="brand" onClick={onHome} aria-label="返回首页">
+      <button className="brand cursor-target" onClick={onHome} aria-label="返回首页">
         <span className="brand-mark">
           <Building2 size={22} strokeWidth={1.7} />
         </span>
-        <span>建筑师灵感库</span>
+        <span>设计灵感库</span>
       </button>
-      <nav>
-        <a href="#gallery">素材</a>
-        <button onClick={onProfile}>个人空间</button>
-      </nav>
-      <button className="nav-user" onClick={onProfile} aria-label="进入 Allen 的个人空间">
+      <PillNav
+        items={[
+          { label: "素材", href: "#gallery" },
+          {
+            label: "个人空间",
+            href: "#profile",
+            onClick: (event) => {
+              event.preventDefault();
+              onProfile();
+            }
+          }
+        ]}
+        activeHref="#gallery"
+      />
+      <button className="nav-user cursor-target" onClick={onProfile} aria-label="进入 Allen 的个人空间">
         <img src="/avatar-small.jpg" alt="" onError={(event) => fallbackImage(event, "/avatar.jpg")} />
         <span>Allen</span>
       </button>
@@ -223,13 +248,16 @@ function Header({ onHome, onProfile }) {
 }
 
 function Hero({ items, onProfile }) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const featured = items[activeIndex] || items[0];
   const showcaseItems = items.slice(0, 5);
-  const moveShowcase = (direction) => {
-    if (!showcaseItems.length) return;
-    setActiveIndex((current) => (current + direction + showcaseItems.length) % showcaseItems.length);
-  };
+  const stackCards = showcaseItems.map((item) => (
+    <article className="stack-showcase-card" key={item.id}>
+      <ThumbImage item={item} alt={item.title} eager />
+      <div className="featured-caption">
+        <span>今日精选</span>
+        <strong>{item.title}</strong>
+      </div>
+    </article>
+  ));
 
   return (
     <section className="hero" id="top">
@@ -237,51 +265,62 @@ function Hero({ items, onProfile }) {
 
       <div className="hero-inner">
         <div className="hero-copy">
-          <p className="eyebrow">AI Product Manager Workspace</p>
-          <h1>让建筑灵感，自动被看见</h1>
-          <p className="hero-lede">
-            从散落的图像、标题、作者与网页链接中，沉淀一座可搜索、可筛选、可收藏的建筑灵感库。
-          </p>
+          <SplitText
+            tag="p"
+            text="AI Product Manager Workspace"
+            className="eyebrow hero-eyebrow"
+            delay={38}
+            textAlign="left"
+          />
+          <SplitText
+            tag="h1"
+            text={"让建筑灵感\n自动被发现"}
+            className="hero-title"
+            delay={68}
+            textAlign="left"
+          />
+          <SplitText
+            tag="p"
+            text="从散落的图像、标题、作者与网页链接中，沉淀一座可搜索、可筛选、可收藏的设计灵感库。"
+            className="hero-lede"
+            delay={14}
+            textAlign="left"
+          />
           <div className="hero-actions">
-            <a className="primary-link" href="#gallery">
-              浏览素材
-              <ArrowDown size={17} strokeWidth={1.8} />
-            </a>
-            <button className="ghost-link" onClick={onProfile}>个人空间</button>
+            <PillNav
+              className="hero-pill-nav"
+              items={[
+                { label: "浏览素材", href: "#gallery", ariaLabel: "浏览素材" },
+                {
+                  label: "个人空间",
+                  href: "#profile",
+                  ariaLabel: "进入个人空间",
+                  onClick: (event) => {
+                    event.preventDefault();
+                    onProfile();
+                  }
+                }
+              ]}
+              activeHref="#gallery"
+              baseColor="#201b16"
+              pillColor="rgba(255, 252, 246, 0.78)"
+              pillTextColor="#201b16"
+              hoveredPillTextColor="#fffaf2"
+            />
+            <ArrowDown className="hero-action-cue" size={17} strokeWidth={1.8} />
           </div>
         </div>
 
-        <div className="hero-stage" aria-label="精选建筑灵感切换">
-          <div className="hero-preview-stack">
-            {showcaseItems.map((item, index) => (
-              <button
-                key={item.id}
-                className={`hero-preview hero-preview-${index + 1} ${activeIndex === index ? "is-active" : ""}`}
-                onClick={() => setActiveIndex(index)}
-                aria-label={`展示 ${item.title || "建筑灵感图片"}`}
-              >
-                <ThumbImage item={item} eager={index < 2} />
-              </button>
-            ))}
-          </div>
-
-          {featured && (
-            <article className="featured-card" key={featured.id}>
-              <ThumbImage item={featured} alt={featured.title} eager />
-              <div className="featured-controls">
-                <button onClick={() => moveShowcase(-1)} aria-label="上一张精选图片">
-                  <ChevronLeft size={20} strokeWidth={1.9} />
-                </button>
-                <button onClick={() => moveShowcase(1)} aria-label="下一张精选图片">
-                  <ChevronRight size={20} strokeWidth={1.9} />
-                </button>
-              </div>
-              <div className="featured-caption">
-                <span>今日精选</span>
-                <strong>{featured.title}</strong>
-              </div>
-            </article>
-          )}
+        <div className="hero-stage stack-stage" aria-label="精选设计灵感图集">
+          <Stack
+            cards={stackCards}
+            randomRotation
+            sensitivity={170}
+            sendToBackOnClick
+            autoplay
+            autoplayDelay={3600}
+            pauseOnHover
+          />
         </div>
       </div>
     </section>
@@ -289,7 +328,7 @@ function Hero({ items, onProfile }) {
 }
 
 function PersonalSpacePage({ items, favoriteItems, commentEntries, onBack, onSelect }) {
-  const [activePanel, setActivePanel] = useState("boards");
+  const [activePanel, setActivePanel] = useState("all");
   const [selectedBoard, setSelectedBoard] = useState(null);
   const [customBoards, setCustomBoards] = useState([]);
   const visibleItems = favoriteItems.length ? favoriteItems : items.slice(0, 16);
@@ -345,15 +384,15 @@ function PersonalSpacePage({ items, favoriteItems, commentEntries, onBack, onSel
   return (
     <main className="profile-page">
       <div className="profile-topbar">
-        <button className="profile-back" onClick={onBack} aria-label="返回灵感库">
+        <button className="profile-back cursor-target" onClick={onBack} aria-label="返回灵感库">
           <ArrowLeft size={19} />
           灵感库
         </button>
-        <label className="profile-search">
+        <label className="profile-search cursor-target">
           <Search size={19} />
           <input placeholder="搜索收藏、画板、AI 标签" />
         </label>
-        <button className="profile-avatar-button" aria-label="Allen">
+        <button className="profile-avatar-button cursor-target" aria-label="Allen">
           <img src="/avatar-small.jpg" alt="" onError={(event) => fallbackImage(event, "/avatar.jpg")} />
         </button>
       </div>
@@ -437,36 +476,50 @@ function PersonalSpacePage({ items, favoriteItems, commentEntries, onBack, onSel
 }
 
 function MasonryGallery({ items, onSelect }) {
+  const curatedItems = useMemo(
+    () => items.map((item, index) => ({ item, layout: getCuratedCardLayout(item, index) })),
+    [items]
+  );
+
   if (!items.length) {
     return <div className="empty-state">没有匹配的素材，换一个关键词试试。</div>;
   }
 
   return (
-    <div className="masonry">
-      {items.map((item) => (
-        <article className="inspiration-card image-only-card" key={item.id}>
-          <button
-            className="card-open"
-            style={{ aspectRatio: item.aspectRatio }}
-            onClick={() => onSelect(item)}
-            aria-label={`查看 ${item.title || "素材"} 的详情`}
-          >
-            <ThumbImage item={item} alt={item.title} />
-            <span className="card-title-overlay">{item.title || "未命名素材"}</span>
-          </button>
-          {item.link && (
-            <a
-              className="card-source-jump"
-              href={item.link}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="前往原文地址"
-              title="前往原文地址"
+    <div className="curated-masonry" aria-label="设计素材瀑布流">
+      {curatedItems.map(({ item, layout }) => (
+        <BorderGlow
+          className="inspiration-glow curated-glow"
+          borderRadius={24}
+          glowRadius={30}
+          glowIntensity={0.7}
+          fillOpacity={0}
+          key={item.id}
+          style={layout.style}
+        >
+          <article className={`inspiration-card image-only-card ${layout.className}`}>
+            <button
+              className="card-open cursor-target"
+              onClick={() => onSelect(item)}
+              aria-label={`查看 ${item.title || "素材"} 的详情`}
             >
-              <ExternalLink size={17} strokeWidth={1.9} />
-            </a>
-          )}
-        </article>
+              <ThumbImage item={item} alt={item.title} />
+              <span className="card-title-overlay">{item.title || "未命名素材"}</span>
+            </button>
+            {item.link && (
+              <a
+                className="card-source-jump cursor-target"
+                href={item.link}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="前往原文地址"
+                title="前往原文地址"
+              >
+                <ExternalLink size={17} strokeWidth={1.9} />
+              </a>
+            )}
+          </article>
+        </BorderGlow>
       ))}
     </div>
   );
@@ -484,13 +537,27 @@ function DetailModal({
 }) {
   const [draft, setDraft] = useState("");
   const [viewerOpen, setViewerOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const allTags = unique([...item.aiKeywords, ...getAllTags(item)]).slice(0, 18);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => setIsOpen(true));
+    return () => cancelAnimationFrame(frame);
+  }, []);
+
+  function closeWithAnimation() {
+    setIsOpen(false);
+    window.setTimeout(onClose, 430);
+  }
 
   return (
     <>
-      <div className="modal-backdrop" onClick={onClose}>
+      <div
+        className={isOpen ? "modal-backdrop is-open" : "modal-backdrop"}
+        onClick={closeWithAnimation}
+      >
         <article className="detail-modal" onClick={(event) => event.stopPropagation()}>
-          <button className="modal-close" onClick={onClose} aria-label="关闭详情">
+          <button className="modal-close" onClick={closeWithAnimation} aria-label="关闭详情">
             <X size={20} strokeWidth={1.8} />
           </button>
 
@@ -689,6 +756,8 @@ function ThumbImage({ item, alt = "", eager = false }) {
     <img
       src={item.thumbSrc}
       alt={alt}
+      width={item.width || undefined}
+      height={item.height || undefined}
       loading={eager ? "eager" : "lazy"}
       decoding="async"
       fetchPriority={eager ? "high" : "auto"}
@@ -733,6 +802,38 @@ function getAllTags(item) {
     ...item.tags,
     ...tagDimensions.flatMap((dimension) => item.aiTags?.[dimension] || [])
   ]);
+}
+
+function getCuratedCardLayout(item, index) {
+  const ratio = item.width && item.height ? item.height / item.width : 0.78;
+  let columns = 3;
+
+  if (ratio < 0.56) {
+    columns = index % 5 === 0 ? 6 : 5;
+  } else if (ratio < 0.82) {
+    columns = index % 4 === 0 ? 5 : 4;
+  } else if (ratio > 1.65) {
+    columns = 3;
+  } else if (ratio > 1.18) {
+    columns = index % 6 === 0 ? 4 : 3;
+  } else {
+    columns = index % 9 === 0 ? 4 : 3;
+  }
+
+  const rows = Math.max(22, Math.min(78, Math.round(columns * 15.2 * ratio)));
+  const shape =
+    ratio < 0.65 ? "is-wide" :
+    ratio > 1.55 ? "is-tall" :
+    ratio > 1.12 ? "is-portrait" :
+    "is-balanced";
+
+  return {
+    className: shape,
+    style: {
+      gridColumn: `span ${columns}`,
+      gridRow: `span ${rows}`
+    }
+  };
 }
 
 function getSearchText(item) {

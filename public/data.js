@@ -1,5 +1,5 @@
 window.INSPIRATION_DATA = {
-  "generatedAt": "2026-07-15 21:43:52",
+  "generatedAt": "2026-07-15 23:42:14",
   "rootName": "灵感库",
   "imageFolder": "image",
   "totalImages": 59,
@@ -9,8 +9,8 @@ window.INSPIRATION_DATA = {
   "aiTaggedImages": 59,
   "aiTagSummary": {
     "model": "qwen3-vl-flash",
-    "fromCache": 39,
-    "taggedNow": 20,
+    "fromCache": 59,
+    "taggedNow": 0,
     "failed": 0,
     "skipped": 0,
     "skippedReason": ""
