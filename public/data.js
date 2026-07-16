@@ -1,16 +1,16 @@
 window.INSPIRATION_DATA = {
-  "generatedAt": "2026-07-15 23:42:14",
+  "generatedAt": "2026-07-16 22:01:28",
   "rootName": "灵感库",
   "imageFolder": "image",
-  "totalImages": 59,
-  "matchedImages": 41,
-  "unmatchedImages": 18,
+  "totalImages": 68,
+  "matchedImages": 59,
+  "unmatchedImages": 9,
   "aiModel": "qwen3-vl-flash",
-  "aiTaggedImages": 59,
+  "aiTaggedImages": 68,
   "aiTagSummary": {
     "model": "qwen3-vl-flash",
     "fromCache": 59,
-    "taggedNow": 0,
+    "taggedNow": 9,
     "failed": 0,
     "skipped": 0,
     "skippedReason": ""
@@ -23,22 +23,499 @@ window.INSPIRATION_DATA = {
     "场景用途"
   ],
   "excelFile": "图片信息.xlsx",
-  "excelRows": 39,
+  "excelRows": 59,
   "items": [
+    {
+      "id": "img-00064",
+      "fileName": "20260716215700-上房生态-真植物墙VS仿真植物墙选型指南.jpeg",
+      "relativePath": "image/20260716215700-上房生态-真植物墙VS仿真植物墙选型指南.jpeg",
+      "imageUrl": "image/20260716215700-%E4%B8%8A%E6%88%BF%E7%94%9F%E6%80%81-%E7%9C%9F%E6%A4%8D%E7%89%A9%E5%A2%99VS%E4%BB%BF%E7%9C%9F%E6%A4%8D%E7%89%A9%E5%A2%99%E9%80%89%E5%9E%8B%E6%8C%87%E5%8D%97.jpeg",
+      "title": "真植物墙VS仿真植物墙选型指南",
+      "user": "上房生态",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:59:09",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "办公建筑",
+          "室内空间"
+        ],
+        "设计风格": [
+          "自然主义",
+          "现代主义",
+          "混合风格"
+        ],
+        "材料元素": [
+          "绿植",
+          "木饰面",
+          "金属",
+          "玻璃",
+          "灯光装置",
+          "织物/软装"
+        ],
+        "色彩特征": [
+          "原木色",
+          "中性色",
+          "彩色点缀",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "入口大堂",
+          "前台接待",
+          "会议空间"
+        ]
+      },
+      "aiSummary": "上下分屏展示办公空间中真植物墙在前台与会议室的应用，绿植墙配以果蔬装饰与品牌标识，营造自然活力的商务环境。",
+      "aiKeywords": [
+        "真植物墙",
+        "仿真植物墙",
+        "办公前台",
+        "会议室",
+        "绿植墙设计",
+        "Mercury Group",
+        "上房生态",
+        "自然主义风格",
+        "品牌视觉",
+        "木质会议桌",
+        "环形灯带",
+        "软装搭配"
+      ],
+      "aiTaggedAt": "2026-07-16 22:01:02"
+    },
+    {
+      "id": "img-00061",
+      "fileName": "20260716215700-93制物-板植植物墙.jpeg",
+      "relativePath": "image/20260716215700-93制物-板植植物墙.jpeg",
+      "imageUrl": "image/20260716215700-93%E5%88%B6%E7%89%A9-%E6%9D%BF%E6%A4%8D%E6%A4%8D%E7%89%A9%E5%A2%99.jpeg",
+      "title": "板植植物墙",
+      "user": "93制物",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:59:35",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "商业建筑",
+          "室内空间"
+        ],
+        "设计风格": [
+          "自然主义",
+          "工业风",
+          "混合风格"
+        ],
+        "材料元素": [
+          "金属",
+          "玻璃",
+          "木饰面",
+          "绿植",
+          "灯光装置"
+        ],
+        "色彩特征": [
+          "中性色",
+          "原木色",
+          "明亮通透",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "展示区",
+          "入口大堂"
+        ]
+      },
+      "aiSummary": "玻璃橱窗内嵌金属框架植物墙，搭配LED灯带与吊挂鹿角蕨，呈现工业感与自然气息融合的商业空间展示场景。",
+      "aiKeywords": [
+        "板植植物墙",
+        "金属框架",
+        "鹿角蕨",
+        "LED灯带",
+        "玻璃橱窗",
+        "工业风",
+        "自然主义",
+        "商业展示",
+        "绿植装饰",
+        "室内景观",
+        "吊挂植物",
+        "incoot"
+      ],
+      "aiTaggedAt": "2026-07-16 22:00:34"
+    },
+    {
+      "id": "img-00060",
+      "fileName": "20260716215700-1304室-杭州恒隆广场克苏鲁景观配置.jpeg",
+      "relativePath": "image/20260716215700-1304室-杭州恒隆广场克苏鲁景观配置.jpeg",
+      "imageUrl": "image/20260716215700-1304%E5%AE%A4-%E6%9D%AD%E5%B7%9E%E6%81%92%E9%9A%86%E5%B9%BF%E5%9C%BA%E5%85%8B%E8%8B%8F%E9%B2%81%E6%99%AF%E8%A7%82%E9%85%8D%E7%BD%AE.jpeg",
+      "title": "杭州恒隆广场克苏鲁景观配置",
+      "user": "1304室",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [
+        "景观"
+      ],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:58:44",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "商业建筑",
+          "公共建筑"
+        ],
+        "设计风格": [
+          "自然主义",
+          "混合风格"
+        ],
+        "材料元素": [
+          "石材",
+          "金属",
+          "玻璃",
+          "木饰面",
+          "绿植",
+          "灯光装置"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "中性色",
+          "彩色点缀",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "休闲区"
+        ]
+      },
+      "aiSummary": "杭州恒隆广场户外广场，以多层次绿植景观为核心，搭配木质座椅与现代构筑物，背景为玻璃幕墙高楼与商业街景。",
+      "aiKeywords": [
+        "杭州恒隆广场",
+        "克苏鲁景观",
+        "庭院广场",
+        "绿植配置",
+        "自然主义设计",
+        "商业街区",
+        "植物标识",
+        "休闲区",
+        "现代景观",
+        "城市公共空间"
+      ],
+      "aiTaggedAt": "2026-07-16 22:00:27"
+    },
+    {
+      "id": "img-00062",
+      "fileName": "20260716215700-D5-四季植物一套场景快速响应四季效果需求.jpeg",
+      "relativePath": "image/20260716215700-D5-四季植物一套场景快速响应四季效果需求.jpeg",
+      "imageUrl": "image/20260716215700-D5-%E5%9B%9B%E5%AD%A3%E6%A4%8D%E7%89%A9%E4%B8%80%E5%A5%97%E5%9C%BA%E6%99%AF%E5%BF%AB%E9%80%9F%E5%93%8D%E5%BA%94%E5%9B%9B%E5%AD%A3%E6%95%88%E6%9E%9C%E9%9C%80%E6%B1%82.jpeg",
+      "title": "四季植物一套场景快速响应四季效果需求",
+      "user": "D5",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:59:47",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "景观/构筑物",
+          "公共建筑"
+        ],
+        "设计风格": [
+          "东方美学",
+          "自然主义",
+          "混合风格"
+        ],
+        "材料元素": [
+          "绿植",
+          "水体",
+          "木饰面",
+          "清水混凝土",
+          "金属"
+        ],
+        "色彩特征": [
+          "彩色点缀",
+          "暖灰色系",
+          "低饱和",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "鸟瞰/总图",
+          "庭院/广场"
+        ]
+      },
+      "aiSummary": "四季更迭下的湖心岛屿景观设计：春樱夏绿、秋枫冬雪，通过栈道串联生态小岛，呈现诗意自然的时序变化。",
+      "aiKeywords": [
+        "四季景观",
+        "湖心岛屿",
+        "栈道连接",
+        "生态园林",
+        "春樱秋枫冬雪",
+        "鸟瞰效果图",
+        "东方意境",
+        "自然主义",
+        "景观构筑物",
+        "季节变换",
+        "水体环绕",
+        "生态湿地"
+      ],
+      "aiTaggedAt": "2026-07-16 22:00:43"
+    },
+    {
+      "id": "img-00065",
+      "fileName": "20260716215700-俏金枝景观-几何水院与艺术装置如何构成归家仪式.jpeg",
+      "relativePath": "image/20260716215700-俏金枝景观-几何水院与艺术装置如何构成归家仪式.jpeg",
+      "imageUrl": "image/20260716215700-%E4%BF%8F%E9%87%91%E6%9E%9D%E6%99%AF%E8%A7%82-%E5%87%A0%E4%BD%95%E6%B0%B4%E9%99%A2%E4%B8%8E%E8%89%BA%E6%9C%AF%E8%A3%85%E7%BD%AE%E5%A6%82%E4%BD%95%E6%9E%84%E6%88%90%E5%BD%92%E5%AE%B6%E4%BB%AA%E5%BC%8F.jpeg",
+      "title": "几何水院与艺术装置如何构成归家仪式",
+      "user": "俏金枝景观",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [
+        "景观"
+      ],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:58:34",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "景观/构筑物",
+          "住宅建筑"
+        ],
+        "设计风格": [
+          "极简主义",
+          "自然主义",
+          "东方美学"
+        ],
+        "材料元素": [
+          "绿植",
+          "金属",
+          "石材",
+          "其他"
+        ],
+        "色彩特征": [
+          "中性色",
+          "高对比",
+          "暗调氛围",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "悬吊式几何岛屿装置融合苔藓绿植与白色金属雕塑，光影交错下营造轻盈灵动的归家仪式感景观。",
+      "aiKeywords": [
+        "悬浮岛屿装置",
+        "绿植艺术",
+        "金属雕塑",
+        "光影设计",
+        "归家仪式",
+        "景观构筑物",
+        "极简自然",
+        "东方意境",
+        "高对比色调",
+        "庭院景观",
+        "俏金枝设计",
+        "悬浮花盆"
+      ],
+      "aiTaggedAt": "2026-07-16 22:01:08"
+    },
+    {
+      "id": "img-00063",
+      "fileName": "20260716215700-L31-从双非到985纯手搓的环设考研作品集.jpeg",
+      "relativePath": "image/20260716215700-L31-从双非到985纯手搓的环设考研作品集.jpeg",
+      "imageUrl": "image/20260716215700-L31-%E4%BB%8E%E5%8F%8C%E9%9D%9E%E5%88%B0985%E7%BA%AF%E6%89%8B%E6%90%93%E7%9A%84%E7%8E%AF%E8%AE%BE%E8%80%83%E7%A0%94%E4%BD%9C%E5%93%81%E9%9B%86.jpeg",
+      "title": "从双非到985纯手搓的环设考研作品集",
+      "user": "L31",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:59:23",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "文化建筑",
+          "公共建筑",
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "东方美学",
+          "地域主义",
+          "自然主义",
+          "混合风格"
+        ],
+        "材料元素": [
+          "木饰面",
+          "石材",
+          "绿植",
+          "水体",
+          "砖",
+          "清水混凝土"
+        ],
+        "色彩特征": [
+          "暖灰色系",
+          "中性色",
+          "低饱和",
+          "原木色",
+          "黑白灰"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "鸟瞰/总图",
+          "立面/外观",
+          "展示区",
+          "休闲区"
+        ]
+      },
+      "aiSummary": "环艺考研作品集展示多组中式文化与自然融合的建筑景观方案，含总图、剖面、效果图及手绘表现，强调地域文脉与生态营造。",
+      "aiKeywords": [
+        "环艺考研作品集",
+        "中式建筑",
+        "文化景观",
+        "地域主义",
+        "水景庭院",
+        "鸟瞰图",
+        "手绘表现",
+        "低饱和色调",
+        "木石材质",
+        "展示排版"
+      ],
+      "aiTaggedAt": "2026-07-16 22:00:52"
+    },
+    {
+      "id": "img-00068",
+      "fileName": "20260716215700-绿景-下沉式绿地怎么设计.jpeg",
+      "relativePath": "image/20260716215700-绿景-下沉式绿地怎么设计.jpeg",
+      "imageUrl": "image/20260716215700-%E7%BB%BF%E6%99%AF-%E4%B8%8B%E6%B2%89%E5%BC%8F%E7%BB%BF%E5%9C%B0%E6%80%8E%E4%B9%88%E8%AE%BE%E8%AE%A1.jpeg",
+      "title": "下沉式绿地怎么设计",
+      "user": "绿景",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [
+        "设计"
+      ],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:59:59",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "景观/构筑物"
+        ],
+        "设计风格": [
+          "自然主义",
+          "极简主义"
+        ],
+        "材料元素": [
+          "绿植",
+          "水体"
+        ],
+        "色彩特征": [
+          "低饱和",
+          "中性色",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "展示区"
+        ]
+      },
+      "aiSummary": "下沉式绿地设计原理图，以俯视剖面示意进排水、蓄渗与植物分区，配以竖向标高与安全溢流逻辑说明。",
+      "aiKeywords": [
+        "下沉式绿地",
+        "海绵城市",
+        "景观设计",
+        "进排水组织",
+        "植物分区",
+        "竖向标高",
+        "临时蓄渗",
+        "安全溢流",
+        "生态设施",
+        "绿色基础设施",
+        "水文循环",
+        "案例复盘"
+      ],
+      "aiTaggedAt": "2026-07-16 22:01:28"
+    },
+    {
+      "id": "img-00067",
+      "fileName": "20260716215700-简致建筑设计咨询北京有限公司-一层水平舒展现代简约别墅松弛自然.jpeg",
+      "relativePath": "image/20260716215700-简致建筑设计咨询北京有限公司-一层水平舒展现代简约别墅松弛自然.jpeg",
+      "imageUrl": "image/20260716215700-%E7%AE%80%E8%87%B4%E5%BB%BA%E7%AD%91%E8%AE%BE%E8%AE%A1%E5%92%A8%E8%AF%A2%E5%8C%97%E4%BA%AC%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E4%B8%80%E5%B1%82%E6%B0%B4%E5%B9%B3%E8%88%92%E5%B1%95%E7%8E%B0%E4%BB%A3%E7%AE%80%E7%BA%A6%E5%88%AB%E5%A2%85%E6%9D%BE%E5%BC%9B%E8%87%AA%E7%84%B6.jpeg",
+      "title": "一层水平舒展现代简约别墅松弛自然",
+      "user": "简致建筑设计咨询北京有限公司",
+      "crawlTime": "20260716215700",
+      "link": "",
+      "imageLink": "",
+      "tags": [
+        "设计",
+        "建筑"
+      ],
+      "sortTime": 1784210220000.0,
+      "lastModified": "2026-07-16 21:58:55",
+      "matched": false,
+      "aiTags": {
+        "建筑类型": [
+          "住宅建筑"
+        ],
+        "设计风格": [
+          "现代主义",
+          "极简主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "玻璃",
+          "木饰面",
+          "绿植",
+          "水体"
+        ],
+        "色彩特征": [
+          "中性色",
+          "冷色调",
+          "明亮通透",
+          "低饱和"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "休闲区",
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "现代简约风格别墅，一层水平舒展，大面积玻璃引入自然光，庭院绿植与水景营造松弛自然氛围。",
+      "aiKeywords": [
+        "现代简约别墅",
+        "一层平面图",
+        "水平舒展",
+        "清水混凝土",
+        "大玻璃幕墙",
+        "庭院景观",
+        "松弛自然",
+        "极简主义",
+        "户外休闲区",
+        "明亮通透",
+        "中性色调",
+        "绿植水景"
+      ],
+      "aiTaggedAt": "2026-07-16 22:01:22"
+    },
     {
       "id": "img-00058",
       "fileName": "20260715212543-苏州博物馆-问君何处来苏博20周年大展明日开幕.jpeg",
       "relativePath": "image/20260715212543-苏州博物馆-问君何处来苏博20周年大展明日开幕.jpeg",
       "imageUrl": "image/20260715212543-%E8%8B%8F%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86-%E9%97%AE%E5%90%9B%E4%BD%95%E5%A4%84%E6%9D%A5%E8%8B%8F%E5%8D%9A20%E5%91%A8%E5%B9%B4%E5%A4%A7%E5%B1%95%E6%98%8E%E6%97%A5%E5%BC%80%E5%B9%95.jpeg",
-      "title": "问君何处来苏博20周年大展明日开幕",
+      "title": "🏛️问君何处来｜苏博20周年大展明日开幕",
       "user": "苏州博物馆",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a5727c1000000002201625d?xsec_token=ABa76DYBravUlr82PWFSwu_XGXOf8FaeVhrcg0jTjsyIQ=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152127/fcfbd0e639d57dd7f9b2d85abf0c20c9/notes_pre_post/1040g3k0322krsnohnae05p0vo4f4i4quftv8j8o!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:27:08",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "文化建筑",
@@ -84,17 +561,17 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-猫头鹰学社-独立住宅三角宅.jpeg",
       "relativePath": "image/20260715212543-猫头鹰学社-独立住宅三角宅.jpeg",
       "imageUrl": "image/20260715212543-%E7%8C%AB%E5%A4%B4%E9%B9%B0%E5%AD%A6%E7%A4%BE-%E7%8B%AC%E7%AB%8B%E4%BD%8F%E5%AE%85%E4%B8%89%E8%A7%92%E5%AE%85.jpeg",
-      "title": "独立住宅三角宅",
+      "title": "独立住宅——三角宅",
       "user": "猫头鹰学社",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a56db8f000000001603d1a2?xsec_token=ABZQ-c93nb88zzIKCSgbWIvlNrFLZBArOFqy9jDMBiudE=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152127/8305ef6b56e0e19bfd8cdc374d76e36a/1040g2sg322kge2987kkg5pp88qu7djkqilj6ck8!nd_dft_wlteh_webp_3",
       "tags": [
         "住宅"
       ],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:27:45",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "住宅建筑"
@@ -140,15 +617,15 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-RAC干货家族-爆改摩天大楼粉色垂直社区实现跨代共居.jpeg",
       "relativePath": "image/20260715212543-RAC干货家族-爆改摩天大楼粉色垂直社区实现跨代共居.jpeg",
       "imageUrl": "image/20260715212543-RAC%E5%B9%B2%E8%B4%A7%E5%AE%B6%E6%97%8F-%E7%88%86%E6%94%B9%E6%91%A9%E5%A4%A9%E5%A4%A7%E6%A5%BC%E7%B2%89%E8%89%B2%E5%9E%82%E7%9B%B4%E7%A4%BE%E5%8C%BA%E5%AE%9E%E7%8E%B0%E8%B7%A8%E4%BB%A3%E5%85%B1%E5%B1%85.jpeg",
-      "title": "爆改摩天大楼粉色垂直社区实现跨代共居",
+      "title": "爆改摩天大楼，粉色垂直社区实现跨代共居",
       "user": "RAC干货家族",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a574b580000000006032aa7?xsec_token=ABa76DYBravUlr82PWFSwu_cLsmf3xSEbs7LMuQo5Edsg=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152130/88ed68a24ce248096c29577ea50c3248/notes_pre_post/1040g3k8322kth93q00505p12h2unudj3g517is8!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:30:16",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "住宅建筑",
@@ -199,15 +676,15 @@ window.INSPIRATION_DATA = {
       "title": "母亲住宅及其特点",
       "user": "建筑学碎片",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a56f43b000000001702e5e1?xsec_token=ABZQ-c93nb88zzIKCSgbWIvpxwOYGTkTV3-91uaJGQd6Y=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152130/783a89dfd320069f089bb0a31eb1c3eb/notes_pre_post/1040g3k8322khieja7a805p64ggjjkr6kjmkjouo!nd_dft_wlteh_webp_3",
       "tags": [
         "住宅",
         "建筑"
       ],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:30:29",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "住宅建筑"
@@ -245,76 +722,19 @@ window.INSPIRATION_DATA = {
       "aiTaggedAt": "2026-07-15 21:42:30"
     },
     {
-      "id": "img-00042",
-      "fileName": "20260715212543-333看剧吧-模拟人生4现代都市豪华顶层公寓NOCC房屋.jpeg",
-      "relativePath": "image/20260715212543-333看剧吧-模拟人生4现代都市豪华顶层公寓NOCC房屋.jpeg",
-      "imageUrl": "image/20260715212543-333%E7%9C%8B%E5%89%A7%E5%90%A7-%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F4%E7%8E%B0%E4%BB%A3%E9%83%BD%E5%B8%82%E8%B1%AA%E5%8D%8E%E9%A1%B6%E5%B1%82%E5%85%AC%E5%AF%93NOCC%E6%88%BF%E5%B1%8B.jpeg",
-      "title": "模拟人生4现代都市豪华顶层公寓NOCC房屋",
-      "user": "333看剧吧",
-      "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
-      "tags": [],
-      "sortTime": 1784121943000.0,
-      "lastModified": "2026-07-15 21:30:42",
-      "matched": false,
-      "aiTags": {
-        "建筑类型": [
-          "住宅建筑"
-        ],
-        "设计风格": [
-          "现代主义",
-          "极简主义",
-          "地域主义"
-        ],
-        "材料元素": [
-          "清水混凝土",
-          "玻璃",
-          "木饰面",
-          "绿植",
-          "水体",
-          "石材"
-        ],
-        "色彩特征": [
-          "中性色",
-          "明亮通透",
-          "原木色",
-          "彩色点缀"
-        ],
-        "场景用途": [
-          "庭院/广场",
-          "立面/外观",
-          "鸟瞰/总图",
-          "休闲区"
-        ]
-      },
-      "aiSummary": "现代都市顶层公寓鸟瞰图，白色几何体块搭配橙色屋顶与热带绿植，中央泳池环绕，背景城市天际线清晰。",
-      "aiKeywords": [
-        "模拟人生4",
-        "现代顶层公寓",
-        "都市豪宅",
-        "鸟瞰效果图",
-        "泳池庭院",
-        "棕榈树景观",
-        "玻璃幕墙",
-        "简约线条"
-      ],
-      "aiTaggedAt": "2026-07-15 21:35:17"
-    },
-    {
       "id": "img-00041",
       "fileName": "20260715212543-333看剧吧-模拟人生4分享现代轻奢风平层豪宅.jpeg",
       "relativePath": "image/20260715212543-333看剧吧-模拟人生4分享现代轻奢风平层豪宅.jpeg",
       "imageUrl": "image/20260715212543-333%E7%9C%8B%E5%89%A7%E5%90%A7-%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F4%E5%88%86%E4%BA%AB%E7%8E%B0%E4%BB%A3%E8%BD%BB%E5%A5%A2%E9%A3%8E%E5%B9%B3%E5%B1%82%E8%B1%AA%E5%AE%85.jpeg",
-      "title": "模拟人生4分享现代轻奢风平层豪宅",
+      "title": "模拟人生4分享 现代轻奢风平层豪宅",
       "user": "333看剧吧",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a56cb9900000000070137c3?xsec_token=ABZQ-c93nb88zzIKCSgbWIvtlTLof9UcBirQy_5-1l5ZU=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152127/0b39cc1efb62417639a79f651e6a12bc/notes_pre_post/1040g3k8322kdlm4n7k805qi7k6jjnj04vse4lto!nd_dft_wgth_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:28:00",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "住宅建筑"
@@ -367,15 +787,15 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-333看剧吧-模拟人生4分享现代简约风NOCC大平层.jpeg",
       "relativePath": "image/20260715212543-333看剧吧-模拟人生4分享现代简约风NOCC大平层.jpeg",
       "imageUrl": "image/20260715212543-333%E7%9C%8B%E5%89%A7%E5%90%A7-%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F4%E5%88%86%E4%BA%AB%E7%8E%B0%E4%BB%A3%E7%AE%80%E7%BA%A6%E9%A3%8ENOCC%E5%A4%A7%E5%B9%B3%E5%B1%82.jpeg",
-      "title": "模拟人生4分享现代简约风NOCC大平层",
+      "title": "模拟人生4分享 现代简约风NOCC大平层",
       "user": "333看剧吧",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a56ef1d000000002101bb85?xsec_token=ABZQ-c93nb88zzIKCSgbWIvrCdn5Yh66ZNKk6bXtd4DQY=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152131/63a652205ea187485d08557f5e8bd6a3/1040g2sg322kdlk967oig5qi7k6jjnj04nto353o!nd_dft_wgth_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:31:08",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "住宅建筑"
@@ -423,21 +843,78 @@ window.INSPIRATION_DATA = {
       "aiTaggedAt": "2026-07-15 21:34:20"
     },
     {
+      "id": "img-00042",
+      "fileName": "20260715212543-333看剧吧-模拟人生4现代都市豪华顶层公寓NOCC房屋.jpeg",
+      "relativePath": "image/20260715212543-333看剧吧-模拟人生4现代都市豪华顶层公寓NOCC房屋.jpeg",
+      "imageUrl": "image/20260715212543-333%E7%9C%8B%E5%89%A7%E5%90%A7-%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F4%E7%8E%B0%E4%BB%A3%E9%83%BD%E5%B8%82%E8%B1%AA%E5%8D%8E%E9%A1%B6%E5%B1%82%E5%85%AC%E5%AF%93NOCC%E6%88%BF%E5%B1%8B.jpeg",
+      "title": "模拟人生4 现代都市豪华顶层公寓 NOCC房屋",
+      "user": "333看剧吧",
+      "crawlTime": "20260715212543",
+      "link": "https://www.xiaohongshu.com/explore/6a565978000000002103ddb0?xsec_token=ABZQ-c93nb88zzIKCSgbWIvvoHxhmE_66np7YbaJAf1vI=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152130/810e59a3c562a867331d6d62c88b5196/notes_pre_post/1040g3k0322k0jt457a5g5qi7k6jjnj04jdqdi68!nd_dft_wgth_webp_3",
+      "tags": [],
+      "sortTime": 1784121943000.0,
+      "lastModified": "2026-07-15 21:30:42",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "住宅建筑"
+        ],
+        "设计风格": [
+          "现代主义",
+          "极简主义",
+          "地域主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "玻璃",
+          "木饰面",
+          "绿植",
+          "水体",
+          "石材"
+        ],
+        "色彩特征": [
+          "中性色",
+          "明亮通透",
+          "原木色",
+          "彩色点缀"
+        ],
+        "场景用途": [
+          "庭院/广场",
+          "立面/外观",
+          "鸟瞰/总图",
+          "休闲区"
+        ]
+      },
+      "aiSummary": "现代都市顶层公寓鸟瞰图，白色几何体块搭配橙色屋顶与热带绿植，中央泳池环绕，背景城市天际线清晰。",
+      "aiKeywords": [
+        "模拟人生4",
+        "现代顶层公寓",
+        "都市豪宅",
+        "鸟瞰效果图",
+        "泳池庭院",
+        "棕榈树景观",
+        "玻璃幕墙",
+        "简约线条"
+      ],
+      "aiTaggedAt": "2026-07-15 21:35:17"
+    },
+    {
       "id": "img-00049",
       "fileName": "20260715212543-RZHTZ-柏林新国家美术馆.jpeg",
       "relativePath": "image/20260715212543-RZHTZ-柏林新国家美术馆.jpeg",
       "imageUrl": "image/20260715212543-RZHTZ-%E6%9F%8F%E6%9E%97%E6%96%B0%E5%9B%BD%E5%AE%B6%E7%BE%8E%E6%9C%AF%E9%A6%86.jpeg",
-      "title": "柏林新国家美术馆",
+      "title": "柏林 / 新国家美术馆",
       "user": "RZHTZ",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a563a450000000017028924?xsec_token=ABZQ-c93nb88zzIKCSgbWIvjHa4RflKnZN1cuF9vEefE8=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152128/1f7f5aae2e2258721ae89f00e1079f2b/notes_pre_post/1040g3k0322jsor9b7u6g4a30p27sojcde5i8ndg!nd_dft_wlteh_webp_3",
       "tags": [
         "美术馆"
       ],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:28:39",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "文化建筑",
@@ -486,15 +963,15 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-CallmeProblem-旧时代的遗痕永恒之火纪念碑.jpeg",
       "relativePath": "image/20260715212543-CallmeProblem-旧时代的遗痕永恒之火纪念碑.jpeg",
       "imageUrl": "image/20260715212543-CallmeProblem-%E6%97%A7%E6%97%B6%E4%BB%A3%E7%9A%84%E9%81%97%E7%97%95%E6%B0%B8%E6%81%92%E4%B9%8B%E7%81%AB%E7%BA%AA%E5%BF%B5%E7%A2%91.jpeg",
-      "title": "旧时代的遗痕永恒之火纪念碑",
-      "user": "CallmeProblem",
+      "title": "旧时代的遗痕 永恒之火纪念碑",
+      "user": "Call me Problem",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a57669f0000000021021080?xsec_token=ABa76DYBravUlr82PWFSwu_ZBP0giJIfE5WrvdCj64kBQ=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152129/d2cdbe149f35ff80c2924ab17dd691cb/spectrum/1040g34o322l1br166s705o94jblgag4b4svu068!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:29:50",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "景观/构筑物",
@@ -535,19 +1012,133 @@ window.INSPIRATION_DATA = {
       "aiTaggedAt": "2026-07-15 21:35:21"
     },
     {
+      "id": "img-00053",
+      "fileName": "20260715212543-南四十亩-无.jpeg",
+      "relativePath": "image/20260715212543-南四十亩-无.jpeg",
+      "imageUrl": "image/20260715212543-%E5%8D%97%E5%9B%9B%E5%8D%81%E4%BA%A9-%E6%97%A0.jpeg",
+      "title": "无",
+      "user": "南四十亩",
+      "crawlTime": "20260715212543",
+      "link": "https://www.xiaohongshu.com/explore/6a57167b000000002101beba?xsec_token=ABa76DYBravUlr82PWFSwu_dU5olmm_NL-Hn9Iyqbl9zA=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152129/f659ce456916683a6dc7c7b9d0602f28/note_pre_post_uhdr/1040g3r0322knmhrsg0605p1jel344h6vvlamr7g!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784121943000.0,
+      "lastModified": "2026-07-15 21:30:04",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "办公建筑",
+          "商业建筑"
+        ],
+        "设计风格": [
+          "现代主义",
+          "参数化/未来感"
+        ],
+        "材料元素": [
+          "玻璃",
+          "金属",
+          "绿植"
+        ],
+        "色彩特征": [
+          "冷色调",
+          "中性色",
+          "高对比",
+          "明亮通透"
+        ],
+        "场景用途": [
+          "立面/外观"
+        ]
+      },
+      "aiSummary": "云雾缭绕中矗立的现代摩天楼群，玻璃幕墙反射天空，街道车流穿梭于城市商务核心区。",
+      "aiKeywords": [
+        "摩天大楼",
+        "玻璃幕墙",
+        "现代建筑",
+        "城市天际线",
+        "云雾效果",
+        "商务区",
+        "参数化造型",
+        "冷色调",
+        "都市景观",
+        "高层建筑",
+        "城市街景",
+        "玻璃塔楼"
+      ],
+      "aiTaggedAt": "2026-07-15 21:40:36"
+    },
+    {
+      "id": "img-00059",
+      "fileName": "20260715212543-陶野商店-无.jpeg",
+      "relativePath": "image/20260715212543-陶野商店-无.jpeg",
+      "imageUrl": "image/20260715212543-%E9%99%B6%E9%87%8E%E5%95%86%E5%BA%97-%E6%97%A0.jpeg",
+      "title": "无",
+      "user": "陶野商店",
+      "crawlTime": "20260715212543",
+      "link": "https://www.xiaohongshu.com/explore/6a56e961000000000702f331?xsec_token=ABZQ-c93nb88zzIKCSgbWIvkM31_DaqVpK5N0h1Zjy1tM=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152129/a6834839f1fbf326491fbe8b43c76a90/notes_pre_post/1040g3k0322ki6q12na004auol3iupucpgtkc8bo!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784121943000.0,
+      "lastModified": "2026-07-15 21:29:23",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "住宅建筑",
+          "室内空间"
+        ],
+        "设计风格": [
+          "现代主义",
+          "自然主义",
+          "地域主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "木饰面",
+          "玻璃",
+          "砖",
+          "绿植",
+          "灯光装置"
+        ],
+        "色彩特征": [
+          "原木色",
+          "中性色",
+          "明亮通透",
+          "低饱和"
+        ],
+        "场景用途": [
+          "走廊",
+          "展示区",
+          "休闲区"
+        ]
+      },
+      "aiSummary": "阳光透过木质结构与玻璃幕墙洒入廊道，白发老人缓步穿行于充满艺术气息的现代住宅内部，尽显自然与人文交融的静谧生活氛围。",
+      "aiKeywords": [
+        "现代住宅",
+        "木质梁架",
+        "清水混凝土",
+        "玻璃幕墙",
+        "光影走廊",
+        "艺术陈设",
+        "自然采光",
+        "原木色调",
+        "老年生活",
+        "日式禅意"
+      ],
+      "aiTaggedAt": "2026-07-15 21:43:51"
+    },
+    {
       "id": "img-00051",
       "fileName": "20260715212543-伟爵爷-成为摩天轮城市天际线的巨型摩天轮.jpeg",
       "relativePath": "image/20260715212543-伟爵爷-成为摩天轮城市天际线的巨型摩天轮.jpeg",
       "imageUrl": "image/20260715212543-%E4%BC%9F%E7%88%B5%E7%88%B7-%E6%88%90%E4%B8%BA%E6%91%A9%E5%A4%A9%E8%BD%AE%E5%9F%8E%E5%B8%82%E5%A4%A9%E9%99%85%E7%BA%BF%E7%9A%84%E5%B7%A8%E5%9E%8B%E6%91%A9%E5%A4%A9%E8%BD%AE.jpeg",
-      "title": "成为摩天轮城市天际线的巨型摩天轮",
+      "title": "成为摩天轮：城市天际线的巨型摩天轮🎡",
       "user": "伟爵爷",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a575e5c000000001c026319?xsec_token=ABa76DYBravUlr82PWFSwu_YXGiFa2lK44oygfmAg4al8=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152130/a645dffda4f18a3c7d426e09b8bc4af8/notes_pre_post/1040g3k8322l0erjona004a1c2ee180rjeb7h49g!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:30:53",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "景观/构筑物",
@@ -598,17 +1189,17 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-啦噻go-建筑赏析中粮前海创新中心GP事务所.jpeg",
       "relativePath": "image/20260715212543-啦噻go-建筑赏析中粮前海创新中心GP事务所.jpeg",
       "imageUrl": "image/20260715212543-%E5%95%A6%E5%99%BBgo-%E5%BB%BA%E7%AD%91%E8%B5%8F%E6%9E%90%E4%B8%AD%E7%B2%AE%E5%89%8D%E6%B5%B7%E5%88%9B%E6%96%B0%E4%B8%AD%E5%BF%83GP%E4%BA%8B%E5%8A%A1%E6%89%80.jpeg",
-      "title": "建筑赏析中粮前海创新中心GP事务所",
-      "user": "啦噻go",
+      "title": "建筑赏析—中粮前海创新中心（GP事务所）",
+      "user": "啦噻_go",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a573973000000002103c013?xsec_token=ABa76DYBravUlr82PWFSwu_TPOLBG6Zr-BeIbNB5GZxGY=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152128/cbb70be77fddf87a2edbcaef9c12b84e/spectrum/1040g0k0322kricn3n0005q9vl3naov962bep0q8!nd_dft_wlteh_webp_3",
       "tags": [
         "建筑"
       ],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:28:16",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "办公建筑"
@@ -655,18 +1246,18 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-gad杰地设计-建筑学报gad联合举办青年学者支持计划.jpeg",
       "relativePath": "image/20260715212543-gad杰地设计-建筑学报gad联合举办青年学者支持计划.jpeg",
       "imageUrl": "image/20260715212543-gad%E6%9D%B0%E5%9C%B0%E8%AE%BE%E8%AE%A1-%E5%BB%BA%E7%AD%91%E5%AD%A6%E6%8A%A5gad%E8%81%94%E5%90%88%E4%B8%BE%E5%8A%9E%E9%9D%92%E5%B9%B4%E5%AD%A6%E8%80%85%E6%94%AF%E6%8C%81%E8%AE%A1%E5%88%92.jpeg",
-      "title": "建筑学报gad联合举办青年学者支持计划",
+      "title": "建筑学报×gad联合举办\"青年学者支持计划\"",
       "user": "gad杰地设计",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a573d79000000002101859f?xsec_token=ABa76DYBravUlr82PWFSwu_RE6mFejeQDhCTVhL_s7jDo=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152128/815cfd8f74ebb2b5c815ea030c882292/spectrum/1040g34o322kr4cnmn0105o7c2qn85av84ptm3q8!nd_dft_wlteh_webp_3",
       "tags": [
         "设计",
         "建筑"
       ],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:28:29",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "办公建筑",
@@ -718,15 +1309,15 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-RexChu-广州拍照海印桥上把广州拍出山城感觉.jpeg",
       "relativePath": "image/20260715212543-RexChu-广州拍照海印桥上把广州拍出山城感觉.jpeg",
       "imageUrl": "image/20260715212543-RexChu-%E5%B9%BF%E5%B7%9E%E6%8B%8D%E7%85%A7%E6%B5%B7%E5%8D%B0%E6%A1%A5%E4%B8%8A%E6%8A%8A%E5%B9%BF%E5%B7%9E%E6%8B%8D%E5%87%BA%E5%B1%B1%E5%9F%8E%E6%84%9F%E8%A7%89.jpeg",
-      "title": "广州拍照海印桥上把广州拍出山城感觉",
-      "user": "RexChu",
+      "title": "广州拍照📸｜海印桥上把广州拍出山城感觉🏙️",
+      "user": "RexChu_",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a5749f80000000011012891?xsec_token=ABa76DYBravUlr82PWFSwu_Y1-4DkFwFSyK15l9vgY77o=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152126/c4e07aca537d6bdb4a0f2e96a82f6317/1040g008322kspcha6u00447glk6l91sfqhotbvo!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:26:56",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "办公建筑",
@@ -780,19 +1371,78 @@ window.INSPIRATION_DATA = {
       "aiTaggedAt": "2026-07-15 21:37:53"
     },
     {
+      "id": "img-00052",
+      "fileName": "20260715212543-依马Emma-PeterZumthorZHouse.jpeg",
+      "relativePath": "image/20260715212543-依马Emma-PeterZumthorZHouse.jpeg",
+      "imageUrl": "image/20260715212543-%E4%BE%9D%E9%A9%ACEmma-PeterZumthorZHouse.jpeg",
+      "title": "Peter Zumthor Z House",
+      "user": "依马.Emma",
+      "crawlTime": "20260715212543",
+      "link": "https://www.xiaohongshu.com/explore/6a567ac2000000001101e3a2?xsec_token=ABZQ-c93nb88zzIKCSgbWIvg9ZDizxN60l9Mf17ummZYU=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152127/406e1e3d1b47b1a3a79ddfed7e042a60/1040g2sg322k4j60a70e04a5lq17i7hl17llga70!nd_dft_wlteh_webp_3",
+      "tags": [],
+      "sortTime": 1784121943000.0,
+      "lastModified": "2026-07-15 21:27:35",
+      "matched": true,
+      "aiTags": {
+        "建筑类型": [
+          "住宅建筑",
+          "室内空间"
+        ],
+        "设计风格": [
+          "自然主义",
+          "极简主义",
+          "现代主义"
+        ],
+        "材料元素": [
+          "清水混凝土",
+          "金属",
+          "玻璃",
+          "木饰面",
+          "绿植"
+        ],
+        "色彩特征": [
+          "中性色",
+          "原木色",
+          "明亮通透",
+          "低饱和"
+        ],
+        "场景用途": [
+          "厨房",
+          "用餐区"
+        ]
+      },
+      "aiSummary": "现代住宅厨房与用餐区，大面积落地窗引入葱郁林景，清水混凝土与金属台面结合，阳光洒落斑驳光影，营造自然静谧的居住氛围。",
+      "aiKeywords": [
+        "现代住宅",
+        "厨房设计",
+        "落地窗",
+        "清水混凝土",
+        "木饰面",
+        "自然采光",
+        "极简风格",
+        "绿植景观",
+        "明亮通透",
+        "原木色",
+        "金属台面",
+        "用餐区"
+      ],
+      "aiTaggedAt": "2026-07-15 21:39:48"
+    },
+    {
       "id": "img-00045",
       "fileName": "20260715212543-Jul-Lisbon粗野主义教堂二十世纪的礼器光.jpeg",
       "relativePath": "image/20260715212543-Jul-Lisbon粗野主义教堂二十世纪的礼器光.jpeg",
       "imageUrl": "image/20260715212543-Jul-Lisbon%E7%B2%97%E9%87%8E%E4%B8%BB%E4%B9%89%E6%95%99%E5%A0%82%E4%BA%8C%E5%8D%81%E4%B8%96%E7%BA%AA%E7%9A%84%E7%A4%BC%E5%99%A8%E5%85%89.jpeg",
-      "title": "Lisbon粗野主义教堂二十世纪的礼器光",
+      "title": "Lisbon粗野主义教堂，二十世纪的礼、器、光",
       "user": "Jul",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a57188a0000000011011dc2?xsec_token=ABa76DYBravUlr82PWFSwu_Z-cFsMO7nOEYsPjef_A1uM=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152128/817f2ad37d329db0bdf59fa21aa9e86e/1040g2sg322kigb9mn2605ouc3b2pt5q17lveb40!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:29:06",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "宗教建筑",
@@ -843,17 +1493,17 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-爱画图-CASE01泰特瓦平美术馆青少年罪犯研究所.jpeg",
       "relativePath": "image/20260715212543-爱画图-CASE01泰特瓦平美术馆青少年罪犯研究所.jpeg",
       "imageUrl": "image/20260715212543-%E7%88%B1%E7%94%BB%E5%9B%BE-CASE01%E6%B3%B0%E7%89%B9%E7%93%A6%E5%B9%B3%E7%BE%8E%E6%9C%AF%E9%A6%86%E9%9D%92%E5%B0%91%E5%B9%B4%E7%BD%AA%E7%8A%AF%E7%A0%94%E7%A9%B6%E6%89%80.jpeg",
-      "title": "CASE01泰特瓦平美术馆青少年罪犯研究所",
-      "user": "爱画图",
+      "title": "CASE 01｜泰特·瓦平美术馆青少年罪犯研究所",
+      "user": "爱画图⭐",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a5723a4000000002100b5af?xsec_token=ABa76DYBravUlr82PWFSwu_ab5PdreGNcwN__qNTLlbm8=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152129/fa01982cb9339a99ef924b5a5d733a92/1040g008322kpae84nu6g5p7k4efhmcoson6krv0!nd_dft_wgth_webp_3",
       "tags": [
         "美术馆"
       ],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:29:39",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "文化建筑",
@@ -901,17 +1551,17 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-VICYANG-2026天作奖个人深度解读10点设计提示.jpeg",
       "relativePath": "image/20260715212543-VICYANG-2026天作奖个人深度解读10点设计提示.jpeg",
       "imageUrl": "image/20260715212543-VICYANG-2026%E5%A4%A9%E4%BD%9C%E5%A5%96%E4%B8%AA%E4%BA%BA%E6%B7%B1%E5%BA%A6%E8%A7%A3%E8%AF%BB10%E7%82%B9%E8%AE%BE%E8%AE%A1%E6%8F%90%E7%A4%BA.jpeg",
-      "title": "2026天作奖个人深度解读10点设计提示",
-      "user": "VICYANG",
+      "title": "2026天作奖-个人深度解读+10点设计提示",
+      "user": "VIC-YANG",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a570f210000000006037d37?xsec_token=ABa76DYBravUlr82PWFSwu_YKPGZ0aA1YHdMOk2u72U6k=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152128/48ba5465d1651ea9ed6af02a29af89eb/notes_pre_post/1040g3k8322km3h0tno0049899da6sopjmg7od8g!nd_dft_wlteh_webp_3",
       "tags": [
         "设计"
       ],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:28:54",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "公共建筑",
@@ -959,15 +1609,15 @@ window.INSPIRATION_DATA = {
       "fileName": "20260715212543-mingjidesignresearch-100个过目难忘的空间011.jpeg",
       "relativePath": "image/20260715212543-mingjidesignresearch-100个过目难忘的空间011.jpeg",
       "imageUrl": "image/20260715212543-mingjidesignresearch-100%E4%B8%AA%E8%BF%87%E7%9B%AE%E9%9A%BE%E5%BF%98%E7%9A%84%E7%A9%BA%E9%97%B4011.jpeg",
-      "title": "100个过目难忘的空间011",
-      "user": "mingjidesignresearch",
+      "title": "100个过目难忘的空间 011",
+      "user": "mingji design & research",
       "crawlTime": "20260715212543",
-      "link": "",
-      "imageLink": "",
+      "link": "https://www.xiaohongshu.com/explore/6a56c8c50000000016026bbb?xsec_token=ABZQ-c93nb88zzIKCSgbWIvufAzeilWqBHxm4cexgw_RE=&xsec_source=pc_search&source=web_explore_feed",
+      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607152127/aeb0a31e6741b08ad6c7e9b6a03a6d65/spectrum/1040g0k0322jrr897n4005q5mmni6kmsiaq2ulf0!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1784121943000.0,
       "lastModified": "2026-07-15 21:27:22",
-      "matched": false,
+      "matched": true,
       "aiTags": {
         "建筑类型": [
           "住宅建筑"
@@ -1069,68 +1719,6 @@ window.INSPIRATION_DATA = {
         "文化空间"
       ],
       "aiTaggedAt": "2026-07-15 01:45:51"
-    },
-    {
-      "id": "img-00052",
-      "fileName": "20260715212543-依马Emma-PeterZumthorZHouse.jpeg",
-      "relativePath": "image/20260715212543-依马Emma-PeterZumthorZHouse.jpeg",
-      "imageUrl": "image/20260715212543-%E4%BE%9D%E9%A9%ACEmma-PeterZumthorZHouse.jpeg",
-      "title": "黄土高原民俗活动中心｜把千沟万壑揉进建筑",
-      "user": "MMA",
-      "crawlTime": "20260715012714",
-      "link": "https://www.xiaohongshu.com/explore/6a546a82000000001503f7dc?xsec_token=ABiRJ3GAtd8ROCRNZrlV4aojdC7BoHDphkexZ-MhElBGw=&xsec_source=pc_search&source=web_explore_feed",
-      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607150133/cb8d1bd2915b38597581d3e3e9cc7310/spectrum/1040g0k0322i42opkn40g5o2olmbg92f8quni0ho!nd_dft_wlteh_webp_3",
-      "tags": [
-        "建筑",
-        "活动中心"
-      ],
-      "sortTime": 1784050034000.0,
-      "lastModified": "2026-07-15 21:27:35",
-      "matched": true,
-      "aiTags": {
-        "建筑类型": [
-          "住宅建筑",
-          "室内空间"
-        ],
-        "设计风格": [
-          "自然主义",
-          "极简主义",
-          "现代主义"
-        ],
-        "材料元素": [
-          "清水混凝土",
-          "金属",
-          "玻璃",
-          "木饰面",
-          "绿植"
-        ],
-        "色彩特征": [
-          "中性色",
-          "原木色",
-          "明亮通透",
-          "低饱和"
-        ],
-        "场景用途": [
-          "厨房",
-          "用餐区"
-        ]
-      },
-      "aiSummary": "现代住宅厨房与用餐区，大面积落地窗引入葱郁林景，清水混凝土与金属台面结合，阳光洒落斑驳光影，营造自然静谧的居住氛围。",
-      "aiKeywords": [
-        "现代住宅",
-        "厨房设计",
-        "落地窗",
-        "清水混凝土",
-        "木饰面",
-        "自然采光",
-        "极简风格",
-        "绿植景观",
-        "明亮通透",
-        "原木色",
-        "金属台面",
-        "用餐区"
-      ],
-      "aiTaggedAt": "2026-07-15 21:39:48"
     },
     {
       "id": "img-00038",
@@ -2568,10 +3156,10 @@ window.INSPIRATION_DATA = {
       "aiTaggedAt": "2026-07-13 21:34:17"
     },
     {
-      "id": "img-00053",
-      "fileName": "20260715212543-南四十亩-无.jpeg",
-      "relativePath": "image/20260715212543-南四十亩-无.jpeg",
-      "imageUrl": "image/20260715212543-%E5%8D%97%E5%9B%9B%E5%8D%81%E4%BA%A9-%E6%97%A0.jpeg",
+      "id": "img-00066",
+      "fileName": "20260716215700-无-地图上的这些圆孔是什么.jpeg",
+      "relativePath": "image/20260716215700-无-地图上的这些圆孔是什么.jpeg",
+      "imageUrl": "image/20260716215700-%E6%97%A0-%E5%9C%B0%E5%9B%BE%E4%B8%8A%E7%9A%84%E8%BF%99%E4%BA%9B%E5%9C%86%E5%AD%94%E6%98%AF%E4%BB%80%E4%B9%88.jpeg",
       "title": "无",
       "user": "大漠中的沙子",
       "crawlTime": "20260712011432",
@@ -2579,107 +3167,48 @@ window.INSPIRATION_DATA = {
       "imageLink": "https://sns-webpic-qc.xhscdn.com/202607120118/98c5090dd488df1480ca2e4809d275e0/notes_pre_post/1040g3k8322fmjp1dnkd05nub2bvgbuttfte1spo!nd_dft_wlteh_webp_3",
       "tags": [],
       "sortTime": 1783790072000.0,
-      "lastModified": "2026-07-15 21:30:04",
+      "lastModified": "2026-07-16 21:58:18",
       "matched": true,
       "aiTags": {
         "建筑类型": [
-          "办公建筑",
-          "商业建筑"
+          "景观/构筑物",
+          "住宅建筑"
         ],
         "设计风格": [
-          "现代主义",
-          "参数化/未来感"
+          "地域主义",
+          "自然主义"
         ],
         "材料元素": [
-          "玻璃",
-          "金属",
-          "绿植"
-        ],
-        "色彩特征": [
-          "冷色调",
-          "中性色",
-          "高对比",
-          "明亮通透"
-        ],
-        "场景用途": [
-          "立面/外观"
-        ]
-      },
-      "aiSummary": "云雾缭绕中矗立的现代摩天楼群，玻璃幕墙反射天空，街道车流穿梭于城市商务核心区。",
-      "aiKeywords": [
-        "摩天大楼",
-        "玻璃幕墙",
-        "现代建筑",
-        "城市天际线",
-        "云雾效果",
-        "商务区",
-        "参数化造型",
-        "冷色调",
-        "都市景观",
-        "高层建筑",
-        "城市街景",
-        "玻璃塔楼"
-      ],
-      "aiTaggedAt": "2026-07-15 21:40:36"
-    },
-    {
-      "id": "img-00059",
-      "fileName": "20260715212543-陶野商店-无.jpeg",
-      "relativePath": "image/20260715212543-陶野商店-无.jpeg",
-      "imageUrl": "image/20260715212543-%E9%99%B6%E9%87%8E%E5%95%86%E5%BA%97-%E6%97%A0.jpeg",
-      "title": "无",
-      "user": "大漠中的沙子",
-      "crawlTime": "20260712011432",
-      "link": "https://www.xiaohongshu.com/explore/6a51eeba000000001700b981?xsec_token=ABHGk9TfU-ffzxHncXggUbvSCnueJJxCvKAlnEWjTsB5Y=&xsec_source=pc_search&source=web_explore_feed",
-      "imageLink": "https://sns-webpic-qc.xhscdn.com/202607120118/98c5090dd488df1480ca2e4809d275e0/notes_pre_post/1040g3k8322fmjp1dnkd05nub2bvgbuttfte1spo!nd_dft_wlteh_webp_3",
-      "tags": [],
-      "sortTime": 1783790072000.0,
-      "lastModified": "2026-07-15 21:29:23",
-      "matched": true,
-      "aiTags": {
-        "建筑类型": [
-          "住宅建筑",
-          "室内空间"
-        ],
-        "设计风格": [
-          "现代主义",
-          "自然主义",
-          "地域主义"
-        ],
-        "材料元素": [
-          "清水混凝土",
-          "木饰面",
-          "玻璃",
-          "砖",
+          "石材",
           "绿植",
-          "灯光装置"
+          "水体",
+          "砖"
         ],
         "色彩特征": [
-          "原木色",
+          "暖灰色系",
+          "低饱和",
           "中性色",
-          "明亮通透",
-          "低饱和"
+          "暗调氛围"
         ],
         "场景用途": [
-          "走廊",
-          "展示区",
-          "休闲区"
+          "鸟瞰/总图",
+          "庭院/广场"
         ]
       },
-      "aiSummary": "阳光透过木质结构与玻璃幕墙洒入廊道，白发老人缓步穿行于充满艺术气息的现代住宅内部，尽显自然与人文交融的静谧生活氛围。",
+      "aiSummary": "多幅航拍拼贴图展示沙漠边缘地带的圆形石构建筑群，融合乡土民居与景观构筑，呈现地域性生态聚落风貌。",
       "aiKeywords": [
-        "现代住宅",
-        "木质梁架",
-        "清水混凝土",
-        "玻璃幕墙",
-        "光影走廊",
-        "艺术陈设",
-        "自然采光",
-        "原木色调",
-        "老年生活",
-        "日式禅意"
+        "航拍拼贴",
+        "圆形石构",
+        "地域主义建筑",
+        "沙漠绿洲",
+        "乡土聚落",
+        "景观构筑物",
+        "石材建筑",
+        "低饱和色调",
+        "鸟瞰图集",
+        "生态建筑"
       ],
-      "aiTaggedAt": "2026-07-15 21:43:51"
+      "aiTaggedAt": "2026-07-16 22:01:15"
     },
     {
       "id": "img-00015",
@@ -3535,6 +4064,6 @@ window.INSPIRATION_DATA = {
       "aiTaggedAt": "2026-07-13 21:38:17"
     }
   ],
-  "matchedExcelRows": 59,
-  "aiTaggedCount": 59
+  "matchedExcelRows": 68,
+  "aiTaggedCount": 68
 };
