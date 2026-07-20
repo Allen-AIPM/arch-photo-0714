@@ -12,6 +12,7 @@ import {
   RotateCcw,
   Search,
   Send,
+  Shuffle,
   SlidersHorizontal,
   X,
   ZoomIn,
@@ -27,12 +28,25 @@ import "./styles.css";
 
 const sourceData = window.INSPIRATION_DATA || { items: [], generatedAt: "" };
 const imageMeta = window.IMAGE_META || {};
+const tagDimensions = ["建筑类型", "设计风格", "材料元素", "色彩特征", "场景用途"];
+
+// 性能优化:allTags 和 searchText 在数据加载时算一次并缓存在 item 上,
+// 而不是放在 getAllTags()/getSearchText() 里让每次搜索输入都对全量 items 重新计算一遍。
 const allItems = (sourceData.items || []).map((item, index) => {
   const imagePath = item.imageUrl || item.relativePath || "";
   const thumbPath = imagePath
     ? imagePath.replace(/^image\//, "thumbs/").replace(/\.[^.]+$/, ".jpg")
     : "";
   const meta = imageMeta[imagePath];
+
+  const aiTags = item.aiTags || {};
+  const aiKeywords = Array.isArray(item.aiKeywords) ? item.aiKeywords : [];
+  const tags = Array.isArray(item.tags) ? item.tags : [];
+  const allTags = unique([...tags, ...tagDimensions.flatMap((dimension) => aiTags[dimension] || [])]);
+
+  const normalizedSearchText = normalize(
+    [item.title, item.user, item.aiSummary, item.fileName, ...aiKeywords, ...allTags].join(" ")
+  );
 
   return {
     ...item,
@@ -42,13 +56,13 @@ const allItems = (sourceData.items || []).map((item, index) => {
     width: meta?.width,
     height: meta?.height,
     aspectRatio: meta?.width && meta?.height ? `${meta.width} / ${meta.height}` : "4 / 3",
-    aiTags: item.aiTags || {},
-    aiKeywords: Array.isArray(item.aiKeywords) ? item.aiKeywords : [],
-    tags: Array.isArray(item.tags) ? item.tags : []
+    aiTags,
+    aiKeywords,
+    tags,
+    allTags,
+    normalizedSearchText
   };
 });
-
-const tagDimensions = ["建筑类型", "设计风格", "材料元素", "色彩特征", "场景用途"];
 
 function App() {
   const [view, setView] = useState(() => (window.location.hash === "#profile" ? "profile" : "home"));
@@ -75,9 +89,8 @@ function App() {
   const filteredItems = useMemo(() => {
     const normalizedQuery = normalize(query);
     return allItems.filter((item) => {
-      const tags = getAllTags(item);
-      const tagMatched = activeTag === "全部" || tags.includes(activeTag);
-      const textMatched = !normalizedQuery || normalize(getSearchText(item)).includes(normalizedQuery);
+      const tagMatched = activeTag === "全部" || item.allTags.includes(activeTag);
+      const textMatched = !normalizedQuery || item.normalizedSearchText.includes(normalizedQuery);
       return tagMatched && textMatched;
     });
   }, [activeTag, query]);
@@ -172,6 +185,18 @@ function App() {
                       placeholder="搜索标题、AI 标签、材料、场景"
                     />
                   </label>
+                  <button
+                    className="random-pick-btn cursor-target"
+                    onClick={() => {
+                      if (!filteredItems.length) return;
+                      const randomItem = filteredItems[Math.floor(Math.random() * filteredItems.length)];
+                      setSelectedItem(randomItem);
+                    }}
+                    disabled={!filteredItems.length}
+                  >
+                    <Shuffle size={16} strokeWidth={1.8} />
+                    随机看一张
+                  </button>
                 </div>
               </div>
 
@@ -538,7 +563,7 @@ function DetailModal({
   const [draft, setDraft] = useState("");
   const [viewerOpen, setViewerOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const allTags = unique([...item.aiKeywords, ...getAllTags(item)]).slice(0, 18);
+  const allTags = unique([...item.aiKeywords, ...item.allTags]).slice(0, 18);
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => setIsOpen(true));
@@ -774,7 +799,7 @@ function fallbackImage(event, fallbackSrc) {
 function buildBoards(items) {
   const grouped = new Map();
   items.forEach((item) => {
-    const label = getAllTags(item)[0] || "灵感收藏";
+    const label = item.allTags[0] || "灵感收藏";
     if (!grouped.has(label)) grouped.set(label, []);
     grouped.get(label).push(item);
   });
@@ -795,13 +820,6 @@ function buildBoards(items) {
         items: items.slice(index, index + 4).length ? items.slice(index, index + 4) : items.slice(0, 4)
       }))
   ];
-}
-
-function getAllTags(item) {
-  return unique([
-    ...item.tags,
-    ...tagDimensions.flatMap((dimension) => item.aiTags?.[dimension] || [])
-  ]);
 }
 
 function getCuratedCardLayout(item, index) {
@@ -836,21 +854,10 @@ function getCuratedCardLayout(item, index) {
   };
 }
 
-function getSearchText(item) {
-  return [
-    item.title,
-    item.user,
-    item.aiSummary,
-    item.fileName,
-    ...item.aiKeywords,
-    ...getAllTags(item)
-  ].join(" ");
-}
-
 function getTopTags(items) {
   const counts = new Map();
   items.forEach((item) => {
-    getAllTags(item).forEach((tag) => counts.set(tag, (counts.get(tag) || 0) + 1));
+    item.allTags.forEach((tag) => counts.set(tag, (counts.get(tag) || 0) + 1));
   });
   return [...counts.entries()]
     .sort((a, b) => b[1] - a[1])
