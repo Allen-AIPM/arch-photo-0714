@@ -672,11 +672,15 @@ img {
 }
 
 .section-tools {
-  flex: 0 0 520px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .search-box {
   height: 54px;
+  width: 520px;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
@@ -694,6 +698,32 @@ img {
   outline: 0;
   color: var(--ink);
   background: transparent;
+}
+
+.random-pick-btn {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--soft-shadow);
+  color: var(--ink);
+  white-space: nowrap;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.random-pick-btn:hover:not(:disabled) {
+  color: #fffaf2;
+  border-color: var(--clay-dark);
+  background: var(--clay-dark);
+}
+
+.random-pick-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .filter-row {
